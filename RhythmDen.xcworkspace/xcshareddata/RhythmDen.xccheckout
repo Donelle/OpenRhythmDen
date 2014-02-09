@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>BBE5BAD5-E03C-408C-9052-AEECC6219D29</string>
+	<key>IDESourceControlProjectName</key>
+	<string>RhythmDen</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>6942E70F-087D-4C56-9862-32E177C4D77D</key>
+		<string>https://github.com/Donelle/OpenRhythmDen.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>RhythmDen.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>6942E70F-087D-4C56-9862-32E177C4D77D</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Donelle/OpenRhythmDen.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>6942E70F-087D-4C56-9862-32E177C4D77D</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>6942E70F-087D-4C56-9862-32E177C4D77D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>OpenRhythmDen</string>
+		</dict>
+	</array>
+</dict>
+</plist>

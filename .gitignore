@@ -1,0 +1,17 @@
+.DS_Store
+._*
+*~
+*.kpf
+*.swp
+*.swo
+*.bak
+*.pidb
+*.p12
+*.cer
+packages/
+xcuserdata/
+DropboxSDK/DropboxSDK.xcodeproj/project.xcworkspace/contents.xcworkspacedata
+BitlySDK/Bitly/libBitly.a
+BitlySDK/BitlyLib.xcodeproj/xcshareddata/xcschemes/BitlyLib.xcscheme
+BitlySDK/BitlyLib.xcodeproj/xcshareddata/xcschemes/BitlyLibTests.xcscheme
+BitlySDK/BitlyLib.xcodeproj/xcshareddata/xcschemes/BitlyLibTests.xcscheme

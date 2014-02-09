@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="3401" systemVersion="12F45" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Album" representedClassName="RDAlbumModel" syncable="YES">
+        <attribute name="albumArtwork" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="albumArtworkThumb" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="albumArtworkUrl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="albumColorScheme" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="albumDiscs" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="albumGenre" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="albumiTunesLookupId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="albumiTunesUrl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="albumiTunesVerified" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="albumLocation" attributeType="String" syncable="YES"/>
+        <attribute name="albumPrevTitle" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="albumTitle" attributeType="String" syncable="YES"/>
+        <attribute name="albumTrackCount" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <relationship name="albumArtists" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Artist" inverseName="artistAlbums" inverseEntity="Artist" syncable="YES"/>
+        <relationship name="albumTracks" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Track" inverseName="trackAlbums" inverseEntity="Track" syncable="YES"/>
+    </entity>
+    <entity name="Artist" representedClassName="RDArtistModel" syncable="YES">
+        <attribute name="artistiTunesLookupId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="artistiTunesUrl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="artistName" attributeType="String" syncable="YES"/>
+        <relationship name="artistAlbums" toMany="YES" minCount="1" deletionRule="Nullify" destinationEntity="Album" inverseName="albumArtists" inverseEntity="Album" syncable="YES"/>
+    </entity>
+    <entity name="LibraryMeta" representedClassName="RDLibraryMetaModel" syncable="YES">
+        <attribute name="totalAlbums" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="totalPlayTime" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="totalTracks" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="version" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Playlist" representedClassName="RDPlaylistModel" syncable="YES">
+        <attribute name="colorScheme" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="createDate" attributeType="Date" syncable="YES"/>
+        <attribute name="name" attributeType="String" syncable="YES"/>
+        <attribute name="thumb" optional="YES" attributeType="Binary" syncable="YES"/>
+        <relationship name="playlistTracks" toMany="YES" deletionRule="Nullify" destinationEntity="Track" inverseName="trackPlaylists" inverseEntity="Track" syncable="YES"/>
+    </entity>
+    <entity name="SyncMeta" representedClassName="RDDropboxSyncMetaModel" syncable="YES">
+        <attribute name="location" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="locationHash" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Track" representedClassName="RDTrackModel" syncable="YES">
+        <attribute name="trackDisc" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="trackFetchDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="trackiTunesLookupId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="trackiTunesUrl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="trackLocation" attributeType="String" syncable="YES"/>
+        <attribute name="trackName" attributeType="String" syncable="YES"/>
+        <attribute name="trackNumber" optional="YES" attributeType="Integer 32" defaultValueString="0" indexed="YES" syncable="YES"/>
+        <attribute name="trackPlayCount" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="trackPrevName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="trackUrl" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="trackAlbums" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Album" inverseName="albumTracks" inverseEntity="Album" syncable="YES"/>
+        <relationship name="trackPlaylists" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Playlist" inverseName="playlistTracks" inverseEntity="Playlist" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Album" positionX="0" positionY="0" width="0" height="0"/>
+        <element name="Artist" positionX="0" positionY="0" width="0" height="0"/>
+        <element name="LibraryMeta" positionX="0" positionY="0" width="0" height="0"/>
+        <element name="Playlist" positionX="0" positionY="0" width="0" height="0"/>
+        <element name="SyncMeta" positionX="0" positionY="0" width="0" height="0"/>
+        <element name="Track" positionX="0" positionY="0" width="0" height="0"/>
+    </elements>
+</model>

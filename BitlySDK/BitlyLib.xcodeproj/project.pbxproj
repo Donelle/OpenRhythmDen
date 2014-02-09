@@ -1,0 +1,644 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B0C0DE91832C994006C5CFC /* CDataScanner.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B0C0DE71832C994006C5CFC /* CDataScanner.h */; };
+		2B0C0DEA1832C994006C5CFC /* CDataScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0C0DE81832C994006C5CFC /* CDataScanner.m */; };
+		2B0C0DF31832C9AA006C5CFC /* CFilteringJSONSerializer.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B0C0DEB1832C9AA006C5CFC /* CFilteringJSONSerializer.h */; };
+		2B0C0DF41832C9AA006C5CFC /* CFilteringJSONSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0C0DEC1832C9AA006C5CFC /* CFilteringJSONSerializer.m */; };
+		2B0C0DF51832C9AA006C5CFC /* CJSONDeserializer_BlocksExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B0C0DED1832C9AA006C5CFC /* CJSONDeserializer_BlocksExtensions.h */; };
+		2B0C0DF61832C9AA006C5CFC /* CJSONDeserializer_BlocksExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0C0DEE1832C9AA006C5CFC /* CJSONDeserializer_BlocksExtensions.m */; };
+		2B0C0DF71832C9AA006C5CFC /* CJSONSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B0C0DEF1832C9AA006C5CFC /* CJSONSerialization.h */; };
+		2B0C0DF81832C9AA006C5CFC /* CJSONSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0C0DF01832C9AA006C5CFC /* CJSONSerialization.m */; };
+		2B0C0DF91832C9AA006C5CFC /* CJSONSerializedData.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B0C0DF11832C9AA006C5CFC /* CJSONSerializedData.h */; };
+		2B0C0DFA1832C9AA006C5CFC /* CJSONSerializedData.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0C0DF21832C9AA006C5CFC /* CJSONSerializedData.m */; };
+		2B0C0DFF1832C9C6006C5CFC /* CDataScanner_Extensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B0C0DFB1832C9C6006C5CFC /* CDataScanner_Extensions.h */; };
+		2B0C0E001832C9C6006C5CFC /* CDataScanner_Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0C0DFC1832C9C6006C5CFC /* CDataScanner_Extensions.m */; };
+		2B0C0E011832C9C6006C5CFC /* NSDictionary_JSONExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B0C0DFD1832C9C6006C5CFC /* NSDictionary_JSONExtensions.h */; };
+		2B0C0E021832C9C6006C5CFC /* NSDictionary_JSONExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0C0DFE1832C9C6006C5CFC /* NSDictionary_JSONExtensions.m */; };
+		2B0C0E0A1832C9D8006C5CFC /* CJSONDeserializer.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B0C0E031832C9D8006C5CFC /* CJSONDeserializer.h */; };
+		2B0C0E0B1832C9D8006C5CFC /* CJSONDeserializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0C0E041832C9D8006C5CFC /* CJSONDeserializer.m */; };
+		2B0C0E0C1832C9D8006C5CFC /* CJSONScanner.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B0C0E051832C9D8006C5CFC /* CJSONScanner.h */; };
+		2B0C0E0D1832C9D8006C5CFC /* CJSONScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0C0E061832C9D8006C5CFC /* CJSONScanner.m */; };
+		2B0C0E0E1832C9D8006C5CFC /* CJSONSerializer.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B0C0E071832C9D8006C5CFC /* CJSONSerializer.h */; };
+		2B0C0E0F1832C9D8006C5CFC /* CJSONSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0C0E081832C9D8006C5CFC /* CJSONSerializer.m */; };
+		2B0C0E101832C9D8006C5CFC /* JSONRepresentation.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B0C0E091832C9D8006C5CFC /* JSONRepresentation.h */; };
+		2B0C0E141832D014006C5CFC /* BitlySDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B0C0E131832D014006C5CFC /* BitlySDK.h */; };
+		B15CACA913F5A229006D7EE7 /* BitlyConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = B15CACA713F59D99006D7EE7 /* BitlyConfig.m */; };
+		B176FA9613F2E1E700F900C2 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B149AC0F13B28FDA00E58291 /* Accounts.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		B176FA9713F2E1E700F900C2 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B149ABFD13B24D9200E58291 /* Twitter.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		B176FA9813F2E1FB00F900C2 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B19202C913B92C520017A136 /* QuartzCore.framework */; };
+		B19BE67914719813000190C4 /* BitlyLib-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = B19BE67814719813000190C4 /* BitlyLib-Prefix.pch */; };
+		B19CCF2114747C6500EDB90F /* BitlyConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = B19CCF1C14747C6500EDB90F /* BitlyConfig.h */; };
+		B19CCF2214747C6500EDB90F /* BitlyDebug.h in Headers */ = {isa = PBXBuildFile; fileRef = B19CCF1D14747C6500EDB90F /* BitlyDebug.h */; };
+		B19CCF2314747C6500EDB90F /* BitlyTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = B19CCF1E14747C6500EDB90F /* BitlyTextView.h */; };
+		B19CCF2414747C6500EDB90F /* BitlyTweetSheet.h in Headers */ = {isa = PBXBuildFile; fileRef = B19CCF1F14747C6500EDB90F /* BitlyTweetSheet.h */; };
+		B19CCF2514747C6500EDB90F /* BitlyURLShortener.h in Headers */ = {isa = PBXBuildFile; fileRef = B19CCF2014747C6500EDB90F /* BitlyURLShortener.h */; };
+		B1A11BAE13F1B86A00F8A7E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B149ABDA13B24BC700E58291 /* Foundation.framework */; };
+		B1A11BBE13F1B8A700F8A7E5 /* Base64Transcoder.c in Sources */ = {isa = PBXBuildFile; fileRef = B149032613E9CEFE009DE846 /* Base64Transcoder.c */; };
+		B1A11BBF13F1B8A700F8A7E5 /* NSMutableURLRequest+Parameters.m in Sources */ = {isa = PBXBuildFile; fileRef = B149032C13E9CEFE009DE846 /* NSMutableURLRequest+Parameters.m */; };
+		B1A11BC013F1B8A700F8A7E5 /* NSString+URLEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = B149033013E9CEFE009DE846 /* NSString+URLEncoding.m */; };
+		B1A11BC113F1B8A700F8A7E5 /* NSURL+Base.m in Sources */ = {isa = PBXBuildFile; fileRef = B149033413E9CEFE009DE846 /* NSURL+Base.m */; };
+		B1A11BC213F1B8A700F8A7E5 /* OAAsynchronousDataFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = B149033813E9CEFE009DE846 /* OAAsynchronousDataFetcher.m */; };
+		B1A11BC313F1B8A700F8A7E5 /* OAConsumer.m in Sources */ = {isa = PBXBuildFile; fileRef = B149033A13E9CEFE009DE846 /* OAConsumer.m */; };
+		B1A11BC413F1B8A700F8A7E5 /* OADataFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = B149033E13E9CEFE009DE846 /* OADataFetcher.m */; };
+		B1A11BC513F1B8A700F8A7E5 /* OAHMAC_SHA1SignatureProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = B149034213E9CEFE009DE846 /* OAHMAC_SHA1SignatureProvider.m */; };
+		B1A11BC613F1B8A700F8A7E5 /* OAMutableURLRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = B149034613E9CEFE009DE846 /* OAMutableURLRequest.m */; };
+		B1A11BC713F1B8A700F8A7E5 /* OAPlaintextSignatureProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = B149034A13E9CEFE009DE846 /* OAPlaintextSignatureProvider.m */; };
+		B1A11BC813F1B8A700F8A7E5 /* OARequestParameter.m in Sources */ = {isa = PBXBuildFile; fileRef = B149034E13E9CEFE009DE846 /* OARequestParameter.m */; };
+		B1A11BC913F1B8A700F8A7E5 /* OAServiceTicket.m in Sources */ = {isa = PBXBuildFile; fileRef = B149035213E9CEFE009DE846 /* OAServiceTicket.m */; };
+		B1A11BCA13F1B8A700F8A7E5 /* OAToken.m in Sources */ = {isa = PBXBuildFile; fileRef = B149035613E9CEFE009DE846 /* OAToken.m */; };
+		B1A11BCB13F1B8BA00F8A7E5 /* BitlyTwitterOAuthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B14903E413EC6A87009DE846 /* BitlyTwitterOAuthViewController.m */; };
+		B1A11BCC13F1B8BA00F8A7E5 /* BitlyTwitterOAuthManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B171B55B13CCEF6A00024D0C /* BitlyTwitterOAuthManager.m */; };
+		B1A11BCD13F1B8BA00F8A7E5 /* BitlyTwitterOAuthAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = B1A2BAB913CF3EBD0084174F /* BitlyTwitterOAuthAccount.m */; };
+		B1A11BCE13F1B8BA00F8A7E5 /* BitlyRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = B1B0034113B9079100A08745 /* BitlyRequest.m */; };
+		B1A11BCF13F1B8BA00F8A7E5 /* BitlyURLShortener.m in Sources */ = {isa = PBXBuildFile; fileRef = B1B0034313B9079100A08745 /* BitlyURLShortener.m */; };
+		B1A11BD013F1B8BA00F8A7E5 /* BitlyTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = B1A2BAD913D608B50084174F /* BitlyTextView.m */; };
+		B1A11BD113F1B8BA00F8A7E5 /* BitlyTweetSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = B19202C013B91BC00017A136 /* BitlyTweetSheet.m */; };
+		B1A11BD213F1B8BA00F8A7E5 /* BitlyLibUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = B19202CC13B933BC0017A136 /* BitlyLibUtil.m */; };
+		B1A11BD313F1B8BA00F8A7E5 /* BitlyTweetSheetAccountSelector.m in Sources */ = {isa = PBXBuildFile; fileRef = B10DAC0313C38DDC00B9A155 /* BitlyTweetSheetAccountSelector.m */; };
+		B1A11BD413F1B8BA00F8A7E5 /* BitlyDebug.m in Sources */ = {isa = PBXBuildFile; fileRef = B14903D813EC49BA009DE846 /* BitlyDebug.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2B0C0DE71832C994006C5CFC /* CDataScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDataScanner.h; path = TouchJSON/Source/CDataScanner.h; sourceTree = SOURCE_ROOT; };
+		2B0C0DE81832C994006C5CFC /* CDataScanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDataScanner.m; path = TouchJSON/Source/CDataScanner.m; sourceTree = SOURCE_ROOT; };
+		2B0C0DEB1832C9AA006C5CFC /* CFilteringJSONSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CFilteringJSONSerializer.h; path = TouchJSON/Source/Experimental/CFilteringJSONSerializer.h; sourceTree = SOURCE_ROOT; };
+		2B0C0DEC1832C9AA006C5CFC /* CFilteringJSONSerializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CFilteringJSONSerializer.m; path = TouchJSON/Source/Experimental/CFilteringJSONSerializer.m; sourceTree = SOURCE_ROOT; };
+		2B0C0DED1832C9AA006C5CFC /* CJSONDeserializer_BlocksExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CJSONDeserializer_BlocksExtensions.h; path = TouchJSON/Source/Experimental/CJSONDeserializer_BlocksExtensions.h; sourceTree = SOURCE_ROOT; };
+		2B0C0DEE1832C9AA006C5CFC /* CJSONDeserializer_BlocksExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CJSONDeserializer_BlocksExtensions.m; path = TouchJSON/Source/Experimental/CJSONDeserializer_BlocksExtensions.m; sourceTree = SOURCE_ROOT; };
+		2B0C0DEF1832C9AA006C5CFC /* CJSONSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CJSONSerialization.h; path = TouchJSON/Source/Experimental/CJSONSerialization.h; sourceTree = SOURCE_ROOT; };
+		2B0C0DF01832C9AA006C5CFC /* CJSONSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CJSONSerialization.m; path = TouchJSON/Source/Experimental/CJSONSerialization.m; sourceTree = SOURCE_ROOT; };
+		2B0C0DF11832C9AA006C5CFC /* CJSONSerializedData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CJSONSerializedData.h; path = TouchJSON/Source/Experimental/CJSONSerializedData.h; sourceTree = SOURCE_ROOT; };
+		2B0C0DF21832C9AA006C5CFC /* CJSONSerializedData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CJSONSerializedData.m; path = TouchJSON/Source/Experimental/CJSONSerializedData.m; sourceTree = SOURCE_ROOT; };
+		2B0C0DFB1832C9C6006C5CFC /* CDataScanner_Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDataScanner_Extensions.h; path = TouchJSON/Source/Extensions/CDataScanner_Extensions.h; sourceTree = SOURCE_ROOT; };
+		2B0C0DFC1832C9C6006C5CFC /* CDataScanner_Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDataScanner_Extensions.m; path = TouchJSON/Source/Extensions/CDataScanner_Extensions.m; sourceTree = SOURCE_ROOT; };
+		2B0C0DFD1832C9C6006C5CFC /* NSDictionary_JSONExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NSDictionary_JSONExtensions.h; path = TouchJSON/Source/Extensions/NSDictionary_JSONExtensions.h; sourceTree = SOURCE_ROOT; };
+		2B0C0DFE1832C9C6006C5CFC /* NSDictionary_JSONExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSDictionary_JSONExtensions.m; path = TouchJSON/Source/Extensions/NSDictionary_JSONExtensions.m; sourceTree = SOURCE_ROOT; };
+		2B0C0E031832C9D8006C5CFC /* CJSONDeserializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CJSONDeserializer.h; path = TouchJSON/Source/JSON/CJSONDeserializer.h; sourceTree = SOURCE_ROOT; };
+		2B0C0E041832C9D8006C5CFC /* CJSONDeserializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CJSONDeserializer.m; path = TouchJSON/Source/JSON/CJSONDeserializer.m; sourceTree = SOURCE_ROOT; };
+		2B0C0E051832C9D8006C5CFC /* CJSONScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CJSONScanner.h; path = TouchJSON/Source/JSON/CJSONScanner.h; sourceTree = SOURCE_ROOT; };
+		2B0C0E061832C9D8006C5CFC /* CJSONScanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CJSONScanner.m; path = TouchJSON/Source/JSON/CJSONScanner.m; sourceTree = SOURCE_ROOT; };
+		2B0C0E071832C9D8006C5CFC /* CJSONSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CJSONSerializer.h; path = TouchJSON/Source/JSON/CJSONSerializer.h; sourceTree = SOURCE_ROOT; };
+		2B0C0E081832C9D8006C5CFC /* CJSONSerializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CJSONSerializer.m; path = TouchJSON/Source/JSON/CJSONSerializer.m; sourceTree = SOURCE_ROOT; };
+		2B0C0E091832C9D8006C5CFC /* JSONRepresentation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JSONRepresentation.h; path = TouchJSON/Source/JSON/JSONRepresentation.h; sourceTree = SOURCE_ROOT; };
+		2B0C0E131832D014006C5CFC /* BitlySDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BitlySDK.h; sourceTree = "<group>"; };
+		B10DAC0213C38DDC00B9A155 /* BitlyTweetSheetAccountSelector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BitlyTweetSheetAccountSelector.h; sourceTree = "<group>"; };
+		B10DAC0313C38DDC00B9A155 /* BitlyTweetSheetAccountSelector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BitlyTweetSheetAccountSelector.m; sourceTree = "<group>"; };
+		B149032613E9CEFE009DE846 /* Base64Transcoder.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Base64Transcoder.c; sourceTree = "<group>"; };
+		B149032713E9CEFE009DE846 /* Base64Transcoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Base64Transcoder.h; sourceTree = "<group>"; };
+		B149032B13E9CEFE009DE846 /* NSMutableURLRequest+Parameters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableURLRequest+Parameters.h"; sourceTree = "<group>"; };
+		B149032C13E9CEFE009DE846 /* NSMutableURLRequest+Parameters.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableURLRequest+Parameters.m"; sourceTree = "<group>"; };
+		B149032F13E9CEFE009DE846 /* NSString+URLEncoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+URLEncoding.h"; sourceTree = "<group>"; };
+		B149033013E9CEFE009DE846 /* NSString+URLEncoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+URLEncoding.m"; sourceTree = "<group>"; };
+		B149033313E9CEFE009DE846 /* NSURL+Base.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+Base.h"; sourceTree = "<group>"; };
+		B149033413E9CEFE009DE846 /* NSURL+Base.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+Base.m"; sourceTree = "<group>"; };
+		B149033713E9CEFE009DE846 /* OAAsynchronousDataFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAAsynchronousDataFetcher.h; sourceTree = "<group>"; };
+		B149033813E9CEFE009DE846 /* OAAsynchronousDataFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OAAsynchronousDataFetcher.m; sourceTree = "<group>"; };
+		B149033913E9CEFE009DE846 /* OAConsumer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAConsumer.h; sourceTree = "<group>"; };
+		B149033A13E9CEFE009DE846 /* OAConsumer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OAConsumer.m; sourceTree = "<group>"; };
+		B149033D13E9CEFE009DE846 /* OADataFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OADataFetcher.h; sourceTree = "<group>"; };
+		B149033E13E9CEFE009DE846 /* OADataFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OADataFetcher.m; sourceTree = "<group>"; };
+		B149034113E9CEFE009DE846 /* OAHMAC_SHA1SignatureProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAHMAC_SHA1SignatureProvider.h; sourceTree = "<group>"; };
+		B149034213E9CEFE009DE846 /* OAHMAC_SHA1SignatureProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OAHMAC_SHA1SignatureProvider.m; sourceTree = "<group>"; };
+		B149034513E9CEFE009DE846 /* OAMutableURLRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAMutableURLRequest.h; sourceTree = "<group>"; };
+		B149034613E9CEFE009DE846 /* OAMutableURLRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OAMutableURLRequest.m; sourceTree = "<group>"; };
+		B149034913E9CEFE009DE846 /* OAPlaintextSignatureProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAPlaintextSignatureProvider.h; sourceTree = "<group>"; };
+		B149034A13E9CEFE009DE846 /* OAPlaintextSignatureProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OAPlaintextSignatureProvider.m; sourceTree = "<group>"; };
+		B149034D13E9CEFE009DE846 /* OARequestParameter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OARequestParameter.h; sourceTree = "<group>"; };
+		B149034E13E9CEFE009DE846 /* OARequestParameter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OARequestParameter.m; sourceTree = "<group>"; };
+		B149035113E9CEFE009DE846 /* OAServiceTicket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAServiceTicket.h; sourceTree = "<group>"; };
+		B149035213E9CEFE009DE846 /* OAServiceTicket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OAServiceTicket.m; sourceTree = "<group>"; };
+		B149035313E9CEFE009DE846 /* OASignatureProviding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OASignatureProviding.h; sourceTree = "<group>"; };
+		B149035513E9CEFE009DE846 /* OAToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAToken.h; sourceTree = "<group>"; };
+		B149035613E9CEFE009DE846 /* OAToken.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OAToken.m; sourceTree = "<group>"; };
+		B149035B13E9CEFE009DE846 /* OAuthConsumer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAuthConsumer.h; sourceTree = "<group>"; };
+		B14903D813EC49BA009DE846 /* BitlyDebug.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BitlyDebug.m; sourceTree = "<group>"; };
+		B14903E313EC6A87009DE846 /* BitlyTwitterOAuthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BitlyTwitterOAuthViewController.h; sourceTree = "<group>"; };
+		B14903E413EC6A87009DE846 /* BitlyTwitterOAuthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BitlyTwitterOAuthViewController.m; sourceTree = "<group>"; };
+		B149ABD813B24BC700E58291 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B149ABDA13B24BC700E58291 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B149ABDC13B24BC700E58291 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B149ABFD13B24D9200E58291 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
+		B149AC0F13B28FDA00E58291 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		B15CACA713F59D99006D7EE7 /* BitlyConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BitlyConfig.m; sourceTree = "<group>"; };
+		B171B55A13CCEF6A00024D0C /* BitlyTwitterOAuthManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BitlyTwitterOAuthManager.h; sourceTree = "<group>"; };
+		B171B55B13CCEF6A00024D0C /* BitlyTwitterOAuthManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BitlyTwitterOAuthManager.m; sourceTree = "<group>"; };
+		B19202C013B91BC00017A136 /* BitlyTweetSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BitlyTweetSheet.m; sourceTree = "<group>"; };
+		B19202C913B92C520017A136 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		B19202CB13B933BC0017A136 /* BitlyLibUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BitlyLibUtil.h; sourceTree = "<group>"; };
+		B19202CC13B933BC0017A136 /* BitlyLibUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BitlyLibUtil.m; sourceTree = "<group>"; };
+		B19BE67714719813000190C4 /* BitlyLib-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "BitlyLib-Info.plist"; path = "BitlyLib/BitlyLib-Info.plist"; sourceTree = "<group>"; };
+		B19BE67814719813000190C4 /* BitlyLib-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "BitlyLib-Prefix.pch"; path = "BitlyLib/BitlyLib-Prefix.pch"; sourceTree = "<group>"; };
+		B19CCF1614747C6500EDB90F /* BitlyTweetSheet_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BitlyTweetSheet_iPad.xib; sourceTree = "<group>"; };
+		B19CCF1714747C6500EDB90F /* BitlyTweetSheet_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BitlyTweetSheet_iPhone.xib; sourceTree = "<group>"; };
+		B19CCF1914747C6500EDB90F /* blue-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blue-button.png"; sourceTree = "<group>"; };
+		B19CCF1A14747C6500EDB90F /* gear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gear.png; sourceTree = "<group>"; };
+		B19CCF1C14747C6500EDB90F /* BitlyConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BitlyConfig.h; sourceTree = "<group>"; };
+		B19CCF1D14747C6500EDB90F /* BitlyDebug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BitlyDebug.h; sourceTree = "<group>"; };
+		B19CCF1E14747C6500EDB90F /* BitlyTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BitlyTextView.h; sourceTree = "<group>"; };
+		B19CCF1F14747C6500EDB90F /* BitlyTweetSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BitlyTweetSheet.h; sourceTree = "<group>"; };
+		B19CCF2014747C6500EDB90F /* BitlyURLShortener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BitlyURLShortener.h; sourceTree = "<group>"; };
+		B1A11BAD13F1B86A00F8A7E5 /* libBitly.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libBitly.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1A2BAB813CF3EBD0084174F /* BitlyTwitterOAuthAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BitlyTwitterOAuthAccount.h; sourceTree = "<group>"; };
+		B1A2BAB913CF3EBD0084174F /* BitlyTwitterOAuthAccount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BitlyTwitterOAuthAccount.m; sourceTree = "<group>"; };
+		B1A2BAD913D608B50084174F /* BitlyTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BitlyTextView.m; sourceTree = "<group>"; };
+		B1B0034013B9079100A08745 /* BitlyRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BitlyRequest.h; sourceTree = "<group>"; };
+		B1B0034113B9079100A08745 /* BitlyRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BitlyRequest.m; sourceTree = "<group>"; };
+		B1B0034313B9079100A08745 /* BitlyURLShortener.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BitlyURLShortener.m; sourceTree = "<group>"; };
+		B1B0935F13CCE8FA009C5A70 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B1A11BAA13F1B86A00F8A7E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1A11BAE13F1B86A00F8A7E5 /* Foundation.framework in Frameworks */,
+				B176FA9613F2E1E700F900C2 /* Accounts.framework in Frameworks */,
+				B176FA9713F2E1E700F900C2 /* Twitter.framework in Frameworks */,
+				B176FA9813F2E1FB00F900C2 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B149032413E9CEFE009DE846 /* OAuthConsumer */ = {
+			isa = PBXGroup;
+			children = (
+				B149032513E9CEFE009DE846 /* Crypto */,
+				B149032B13E9CEFE009DE846 /* NSMutableURLRequest+Parameters.h */,
+				B149032C13E9CEFE009DE846 /* NSMutableURLRequest+Parameters.m */,
+				B149032F13E9CEFE009DE846 /* NSString+URLEncoding.h */,
+				B149033013E9CEFE009DE846 /* NSString+URLEncoding.m */,
+				B149033313E9CEFE009DE846 /* NSURL+Base.h */,
+				B149033413E9CEFE009DE846 /* NSURL+Base.m */,
+				B149033713E9CEFE009DE846 /* OAAsynchronousDataFetcher.h */,
+				B149033813E9CEFE009DE846 /* OAAsynchronousDataFetcher.m */,
+				B149033913E9CEFE009DE846 /* OAConsumer.h */,
+				B149033A13E9CEFE009DE846 /* OAConsumer.m */,
+				B149033D13E9CEFE009DE846 /* OADataFetcher.h */,
+				B149033E13E9CEFE009DE846 /* OADataFetcher.m */,
+				B149034113E9CEFE009DE846 /* OAHMAC_SHA1SignatureProvider.h */,
+				B149034213E9CEFE009DE846 /* OAHMAC_SHA1SignatureProvider.m */,
+				B149034513E9CEFE009DE846 /* OAMutableURLRequest.h */,
+				B149034613E9CEFE009DE846 /* OAMutableURLRequest.m */,
+				B149034913E9CEFE009DE846 /* OAPlaintextSignatureProvider.h */,
+				B149034A13E9CEFE009DE846 /* OAPlaintextSignatureProvider.m */,
+				B149034D13E9CEFE009DE846 /* OARequestParameter.h */,
+				B149034E13E9CEFE009DE846 /* OARequestParameter.m */,
+				B149035113E9CEFE009DE846 /* OAServiceTicket.h */,
+				B149035213E9CEFE009DE846 /* OAServiceTicket.m */,
+				B149035313E9CEFE009DE846 /* OASignatureProviding.h */,
+				B149035513E9CEFE009DE846 /* OAToken.h */,
+				B149035613E9CEFE009DE846 /* OAToken.m */,
+				B149035B13E9CEFE009DE846 /* OAuthConsumer.h */,
+			);
+			path = OAuthConsumer;
+			sourceTree = "<group>";
+		};
+		B149032513E9CEFE009DE846 /* Crypto */ = {
+			isa = PBXGroup;
+			children = (
+				B149032613E9CEFE009DE846 /* Base64Transcoder.c */,
+				B149032713E9CEFE009DE846 /* Base64Transcoder.h */,
+			);
+			path = Crypto;
+			sourceTree = "<group>";
+		};
+		B149ABC913B24BC700E58291 = {
+			isa = PBXGroup;
+			children = (
+				B1DFCBE51471B34A003FAED2 /* TouchJSON */,
+				B149032413E9CEFE009DE846 /* OAuthConsumer */,
+				B149ABDE13B24BC700E58291 /* BitlyLib */,
+				B149ABD713B24BC700E58291 /* Frameworks */,
+				B149ABD513B24BC700E58291 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B149ABD513B24BC700E58291 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B1A11BAD13F1B86A00F8A7E5 /* libBitly.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B149ABD713B24BC700E58291 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B1B0935F13CCE8FA009C5A70 /* Security.framework */,
+				B149AC0F13B28FDA00E58291 /* Accounts.framework */,
+				B19202C913B92C520017A136 /* QuartzCore.framework */,
+				B149ABFD13B24D9200E58291 /* Twitter.framework */,
+				B149ABD813B24BC700E58291 /* UIKit.framework */,
+				B149ABDA13B24BC700E58291 /* Foundation.framework */,
+				B149ABDC13B24BC700E58291 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B149ABDE13B24BC700E58291 /* BitlyLib */ = {
+			isa = PBXGroup;
+			children = (
+				2B0C0E131832D014006C5CFC /* BitlySDK.h */,
+				B19CCF1514747C6500EDB90F /* BitlyPublic */,
+				B1A2BAB613CF3E860084174F /* OAuth */,
+				B15CACA713F59D99006D7EE7 /* BitlyConfig.m */,
+				B1B0034013B9079100A08745 /* BitlyRequest.h */,
+				B1B0034113B9079100A08745 /* BitlyRequest.m */,
+				B1B0034313B9079100A08745 /* BitlyURLShortener.m */,
+				B1A2BAD913D608B50084174F /* BitlyTextView.m */,
+				B19202C013B91BC00017A136 /* BitlyTweetSheet.m */,
+				B19202CB13B933BC0017A136 /* BitlyLibUtil.h */,
+				B19202CC13B933BC0017A136 /* BitlyLibUtil.m */,
+				B10DAC0213C38DDC00B9A155 /* BitlyTweetSheetAccountSelector.h */,
+				B10DAC0313C38DDC00B9A155 /* BitlyTweetSheetAccountSelector.m */,
+				B14903D813EC49BA009DE846 /* BitlyDebug.m */,
+				B19BE67614719757000190C4 /* Supporting Files */,
+			);
+			path = BitlyLib;
+			sourceTree = "<group>";
+		};
+		B19BE67614719757000190C4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B19BE67714719813000190C4 /* BitlyLib-Info.plist */,
+				B19BE67814719813000190C4 /* BitlyLib-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			path = ..;
+			sourceTree = "<group>";
+		};
+		B19CCF1514747C6500EDB90F /* BitlyPublic */ = {
+			isa = PBXGroup;
+			children = (
+				B19CCF1614747C6500EDB90F /* BitlyTweetSheet_iPad.xib */,
+				B19CCF1714747C6500EDB90F /* BitlyTweetSheet_iPhone.xib */,
+				B19CCF1814747C6500EDB90F /* Images */,
+				B19CCF1B14747C6500EDB90F /* PublicHeaders */,
+			);
+			path = BitlyPublic;
+			sourceTree = "<group>";
+		};
+		B19CCF1814747C6500EDB90F /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				B19CCF1914747C6500EDB90F /* blue-button.png */,
+				B19CCF1A14747C6500EDB90F /* gear.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		B19CCF1B14747C6500EDB90F /* PublicHeaders */ = {
+			isa = PBXGroup;
+			children = (
+				B19CCF1C14747C6500EDB90F /* BitlyConfig.h */,
+				B19CCF1D14747C6500EDB90F /* BitlyDebug.h */,
+				B19CCF1E14747C6500EDB90F /* BitlyTextView.h */,
+				B19CCF1F14747C6500EDB90F /* BitlyTweetSheet.h */,
+				B19CCF2014747C6500EDB90F /* BitlyURLShortener.h */,
+			);
+			path = PublicHeaders;
+			sourceTree = "<group>";
+		};
+		B1A2BAB613CF3E860084174F /* OAuth */ = {
+			isa = PBXGroup;
+			children = (
+				B14903E313EC6A87009DE846 /* BitlyTwitterOAuthViewController.h */,
+				B14903E413EC6A87009DE846 /* BitlyTwitterOAuthViewController.m */,
+				B171B55A13CCEF6A00024D0C /* BitlyTwitterOAuthManager.h */,
+				B171B55B13CCEF6A00024D0C /* BitlyTwitterOAuthManager.m */,
+				B1A2BAB813CF3EBD0084174F /* BitlyTwitterOAuthAccount.h */,
+				B1A2BAB913CF3EBD0084174F /* BitlyTwitterOAuthAccount.m */,
+			);
+			name = OAuth;
+			sourceTree = "<group>";
+		};
+		B1DFCBE51471B34A003FAED2 /* TouchJSON */ = {
+			isa = PBXGroup;
+			children = (
+				2B0C0DE71832C994006C5CFC /* CDataScanner.h */,
+				2B0C0DE81832C994006C5CFC /* CDataScanner.m */,
+				B1DFCBE81471B34A003FAED2 /* Experimental */,
+				B1DFCBF11471B34A003FAED2 /* Extensions */,
+				B1DFCBF61471B34A003FAED2 /* JSON */,
+			);
+			name = TouchJSON;
+			path = ../TouchJSON/Source;
+			sourceTree = "<group>";
+		};
+		B1DFCBE81471B34A003FAED2 /* Experimental */ = {
+			isa = PBXGroup;
+			children = (
+				2B0C0DEB1832C9AA006C5CFC /* CFilteringJSONSerializer.h */,
+				2B0C0DEC1832C9AA006C5CFC /* CFilteringJSONSerializer.m */,
+				2B0C0DED1832C9AA006C5CFC /* CJSONDeserializer_BlocksExtensions.h */,
+				2B0C0DEE1832C9AA006C5CFC /* CJSONDeserializer_BlocksExtensions.m */,
+				2B0C0DEF1832C9AA006C5CFC /* CJSONSerialization.h */,
+				2B0C0DF01832C9AA006C5CFC /* CJSONSerialization.m */,
+				2B0C0DF11832C9AA006C5CFC /* CJSONSerializedData.h */,
+				2B0C0DF21832C9AA006C5CFC /* CJSONSerializedData.m */,
+			);
+			path = Experimental;
+			sourceTree = "<group>";
+		};
+		B1DFCBF11471B34A003FAED2 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2B0C0DFB1832C9C6006C5CFC /* CDataScanner_Extensions.h */,
+				2B0C0DFC1832C9C6006C5CFC /* CDataScanner_Extensions.m */,
+				2B0C0DFD1832C9C6006C5CFC /* NSDictionary_JSONExtensions.h */,
+				2B0C0DFE1832C9C6006C5CFC /* NSDictionary_JSONExtensions.m */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B1DFCBF61471B34A003FAED2 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				2B0C0E031832C9D8006C5CFC /* CJSONDeserializer.h */,
+				2B0C0E041832C9D8006C5CFC /* CJSONDeserializer.m */,
+				2B0C0E051832C9D8006C5CFC /* CJSONScanner.h */,
+				2B0C0E061832C9D8006C5CFC /* CJSONScanner.m */,
+				2B0C0E071832C9D8006C5CFC /* CJSONSerializer.h */,
+				2B0C0E081832C9D8006C5CFC /* CJSONSerializer.m */,
+				2B0C0E091832C9D8006C5CFC /* JSONRepresentation.h */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		B1A11BAB13F1B86A00F8A7E5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B19BE67914719813000190C4 /* BitlyLib-Prefix.pch in Headers */,
+				2B0C0DF91832C9AA006C5CFC /* CJSONSerializedData.h in Headers */,
+				2B0C0E0E1832C9D8006C5CFC /* CJSONSerializer.h in Headers */,
+				2B0C0E011832C9C6006C5CFC /* NSDictionary_JSONExtensions.h in Headers */,
+				2B0C0E141832D014006C5CFC /* BitlySDK.h in Headers */,
+				2B0C0DE91832C994006C5CFC /* CDataScanner.h in Headers */,
+				2B0C0E0C1832C9D8006C5CFC /* CJSONScanner.h in Headers */,
+				2B0C0DF71832C9AA006C5CFC /* CJSONSerialization.h in Headers */,
+				2B0C0E101832C9D8006C5CFC /* JSONRepresentation.h in Headers */,
+				2B0C0E0A1832C9D8006C5CFC /* CJSONDeserializer.h in Headers */,
+				2B0C0DF51832C9AA006C5CFC /* CJSONDeserializer_BlocksExtensions.h in Headers */,
+				B19CCF2114747C6500EDB90F /* BitlyConfig.h in Headers */,
+				B19CCF2214747C6500EDB90F /* BitlyDebug.h in Headers */,
+				B19CCF2314747C6500EDB90F /* BitlyTextView.h in Headers */,
+				2B0C0DF31832C9AA006C5CFC /* CFilteringJSONSerializer.h in Headers */,
+				B19CCF2414747C6500EDB90F /* BitlyTweetSheet.h in Headers */,
+				B19CCF2514747C6500EDB90F /* BitlyURLShortener.h in Headers */,
+				2B0C0DFF1832C9C6006C5CFC /* CDataScanner_Extensions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		B1A11BAC13F1B86A00F8A7E5 /* Bitly */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1A11BB513F1B86A00F8A7E5 /* Build configuration list for PBXNativeTarget "Bitly" */;
+			buildPhases = (
+				B1A11BA913F1B86A00F8A7E5 /* Sources */,
+				B1A11BAA13F1B86A00F8A7E5 /* Frameworks */,
+				B1A11BAB13F1B86A00F8A7E5 /* Headers */,
+				B15CAC9513F462BB006D7EE7 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Bitly;
+			productName = bitly;
+			productReference = B1A11BAD13F1B86A00F8A7E5 /* libBitly.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B149ABCB13B24BC700E58291 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = Betaworks;
+			};
+			buildConfigurationList = B149ABCE13B24BC700E58291 /* Build configuration list for PBXProject "BitlyLib" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				English,
+			);
+			mainGroup = B149ABC913B24BC700E58291;
+			productRefGroup = B149ABD513B24BC700E58291 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B1A11BAC13F1B86A00F8A7E5 /* Bitly */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B15CAC9513F462BB006D7EE7 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Version 2.0 (updated for Xcode 4, with some fixes)\n# Changes:\n#    - Works with xcode 4, even when running xcode 3 projects (Workarounds for apple bugs)\n#    - Faster / better: only runs lipo once, instead of once per recursion\n#    - Added some debugging statemetns that can be switched on/off by changing the DEBUG_THIS_SCRIPT variable to \"true\"\n#    - Fixed some typos\n# \n# Purpose:\n#   Create a static library for iPhone from within XCode\n#   Because Apple staff DELIBERATELY broke Xcode to make this impossible from the GUI (Xcode 3.2.3 specifically states this in the Release notes!)\n#   ...no, I don't understand why they did this!\n#\n# Author: Adam Martin - http://twitter.com/redglassesapps\n# Based on: original script from Eonil (main changes: Eonil's script WILL NOT WORK in Xcode GUI - it WILL CRASH YOUR COMPUTER)\n#\n# More info: see this Stack Overflow question: http://stackoverflow.com/questions/3520977/build-fat-static-library-device-simulator-using-xcode-and-sdk-4\n\n#################[ Tests: helps workaround any future bugs in Xcode ]########\n#\nDEBUG_THIS_SCRIPT=\"true\"\n\nif [ $DEBUG_THIS_SCRIPT = \"true\" ]\nthen\necho \"########### TESTS #############\"\necho \"Use the following variables when debugging this script; note that they may change on recursions\"\necho \"BUILD_DIR = $BUILD_DIR\"\necho \"BUILD_ROOT = $BUILD_ROOT\"\necho \"CONFIGURATION_BUILD_DIR = $CONFIGURATION_BUILD_DIR\"\necho \"BUILT_PRODUCTS_DIR = $BUILT_PRODUCTS_DIR\"\necho \"CONFIGURATION_TEMP_DIR = $CONFIGURATION_TEMP_DIR\"\necho \"TARGET_BUILD_DIR = $TARGET_BUILD_DIR\"\nfi\n\necho \"SYMROOT: ${SYMROOT}\"\n\n#####################[ part 1 ]##################\n# First, work out the BASESDK version number (NB: Apple ought to report this, but they hide it)\n#    (incidental: searching for substrings in sh is a nightmare! Sob)\n\nSDK_VERSION=$(echo ${SDK_NAME} | grep -o '.\\{3\\}$')\n\n# Next, work out if we're in SIM or DEVICE\n\nif [ ${PLATFORM_NAME} = \"iphonesimulator\" ]\nthen\nOTHER_SDK_TO_BUILD=iphoneos${SDK_VERSION}\nelse\nOTHER_SDK_TO_BUILD=iphonesimulator${SDK_VERSION}\nfi\n\necho \"XCode has selected SDK: ${PLATFORM_NAME} with version: ${SDK_VERSION} (although back-targetting: ${IPHONEOS_DEPLOYMENT_TARGET})\"\necho \"...therefore, OTHER_SDK_TO_BUILD = ${OTHER_SDK_TO_BUILD}\"\n#\n#####################[ end of part 1 ]##################\n\n#####################[ part 2 ]##################\n#\n# IF this is the original invocation, invoke WHATEVER other builds are required\n#\n# Xcode is already building ONE target...\n#\n# ...but this is a LIBRARY, so Apple is wrong to set it to build just one.\n# ...we need to build ALL targets\n# ...we MUST NOT re-build the target that is ALREADY being built: Xcode WILL CRASH YOUR COMPUTER if you try this (infinite recursion!)\n#\n#\n# So: build ONLY the missing platforms/configurations.\n\nif [ \"true\" == ${ALREADYINVOKED:-false} ]\nthen\necho \"RECURSION: I am NOT the root invocation, so I'm NOT going to recurse\"\nelse\n# CRITICAL:\n# Prevent infinite recursion (Xcode sucks)\nexport ALREADYINVOKED=\"true\"\n\necho \"RECURSION: I am the root ... recursing all missing build targets NOW...\"\necho \"RECURSION: ...about to invoke: xcodebuild -configuration \\\"${CONFIGURATION}\\\" -target \\\"${TARGET_NAME}\\\" -sdk \\\"${OTHER_SDK_TO_BUILD}\\\" ${ACTION} RUN_CLANG_STATIC_ANALYZER=NO\"\n\n# TRACY: had to send output to /dev/null because I couldn't see more than 200 lines in the build log, and was losing the more important messages at the end of the build. If someone knows how to set the number of lines in build log please do!\nxcodebuild -configuration \"${CONFIGURATION}\" -target \"${TARGET_NAME}\" -sdk \"${OTHER_SDK_TO_BUILD}\" ${ACTION} RUN_CLANG_STATIC_ANALYZER=NO BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\" > /dev/null\n\nACTION=\"build\"\n\n#Merge all platform binaries as a fat binary for each configurations.\n\n# Calculate where the (multiple) built files are coming from:\nCURRENTCONFIG_DEVICE_DIR=${SYMROOT}/${CONFIGURATION}-iphoneos\nCURRENTCONFIG_SIMULATOR_DIR=${SYMROOT}/${CONFIGURATION}-iphonesimulator\n\necho \"Taking device build from: ${CURRENTCONFIG_DEVICE_DIR}\"\necho \"Taking simulator build from: ${CURRENTCONFIG_SIMULATOR_DIR}\"\n\nCREATING_UNIVERSAL_DIR=${SYMROOT}/${CONFIGURATION}-universal\necho \"...I will output a universal build to: ${CREATING_UNIVERSAL_DIR}\"\n\n# ... remove the products of previous runs of this script\n#      NB: this directory is ONLY created by this script - it should be safe to delete!\n\nrm -rf \"${CREATING_UNIVERSAL_DIR}\"\nmkdir \"${CREATING_UNIVERSAL_DIR}\"\n\nfi\n\n#\necho \"lipo: for current configuration (${CONFIGURATION}) creating output file: ${CREATING_UNIVERSAL_DIR}/${STATIC_LIB_NAME}\"\nlipo -create -output \"${CREATING_UNIVERSAL_DIR}/${EXECUTABLE_NAME}\" \"${CURRENTCONFIG_DEVICE_DIR}/${EXECUTABLE_NAME}\" \"${CURRENTCONFIG_SIMULATOR_DIR}/${EXECUTABLE_NAME}\"\n\n#########\n# END StackOverflow script\n#\n\n#########\n# Package it up\n#\n\nCODE_DIR=`pwd`\nRESOURCE_DIR=\"Bitly\"\n\nrm -rf \"${RESOURCE_DIR}\"\nmkdir \"${RESOURCE_DIR}\"\n\ncp -r \"${CODE_DIR}/BitlyLib/BitlyPublic\" \"${RESOURCE_DIR}\"\ncp \"${CREATING_UNIVERSAL_DIR}/${EXECUTABLE_NAME}\" \"${RESOURCE_DIR}\"\n\n\n\n\n#mkdir \"${RESOURCE_DIR}/Headers\"\n#echo \"Copying headers from ${CURRENTCONFIG_DEVICE_DIR}/usr/local/include/ to ${RESOURCE_DIR}/Headers\"\n#cp \"${CURRENTCONFIG_DEVICE_DIR}/usr/local/include/\"* \"${RESOURCE_DIR}/Headers\"\n#cd ..\n#mkdir \"${RESOURCE_DIR}/Images\"\n#cp \"${CODE_DIR}/BitlyLib/Images/\"* \"${RESOURCE_DIR}/Images\"\n#cp \"${CODE_DIR}/BitlyLib/BitlyTweetSheet_iPad.xib\" \"${RESOURCE_DIR}\"\n#cp \"${CODE_DIR}/BitlyLib/BitlyTweetSheet_iPhone.xib\" \"${RESOURCE_DIR}\"\n\n\n# VERSIONING update the Info-plist with latest Build number\nINFO_PLIST=\"${CODE_DIR}/BitlyLib/BitlyLib-Info.plist\"\nVERSION_NUM=`/usr/libexec/PlistBuddy -c \"Print CFBundleVersion\" \"${INFO_PLIST}\"`\necho \"VERSION_NUM: ${VERSION_NUM}\"\nBUILD_DATE=`date \"+%Y%m%d_%H:%M:%S\"`\necho \"BUILD_DATE: ${BUILD_DATE}\"\n/usr/libexec/PlistBuddy -c \"Set :CFBuildDate ${BUILD_DATE}\" \"${INFO_PLIST}\"\nBUILD_NUM=`/usr/libexec/PlistBuddy -c \"Print CFBuildNumber\" \"${INFO_PLIST}\"`\nBUILD_NUM=`expr \"${BUILD_NUM}\" \"+\" 1`\necho \"BUILD_NUM: ${BUILD_NUM}\"\n/usr/libexec/PlistBuddy -c \"Set :CFBuildNumber ${BUILD_NUM}\" \"${INFO_PLIST}\"\n\n\n#ARCHIVE_NAME=\"Bitly_${VERSION_NUM}_${BUILD_NUM}.tgz\"\n\n#pushd \"${CREATING_UNIVERSAL_DIR}\"\n#echo \"creating tar file from ${CREATING_UNIVERSAL_DIR}/Bitly\"\n#tar czvf \"${ARCHIVE_NAME}\" \"Bitly\"\n\n#cp \"${ARCHIVE_NAME}\" \"${CODE_DIR}/distribution\"\n\n#echo \"Created archive: ${CODE_DIR}/distribution/${ARCHIVE_NAME}\"\n\n#popd > /dev/null\n\n\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B1A11BA913F1B86A00F8A7E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1A11BBE13F1B8A700F8A7E5 /* Base64Transcoder.c in Sources */,
+				B1A11BBF13F1B8A700F8A7E5 /* NSMutableURLRequest+Parameters.m in Sources */,
+				B1A11BC013F1B8A700F8A7E5 /* NSString+URLEncoding.m in Sources */,
+				B1A11BC113F1B8A700F8A7E5 /* NSURL+Base.m in Sources */,
+				2B0C0E0D1832C9D8006C5CFC /* CJSONScanner.m in Sources */,
+				B1A11BC213F1B8A700F8A7E5 /* OAAsynchronousDataFetcher.m in Sources */,
+				2B0C0DFA1832C9AA006C5CFC /* CJSONSerializedData.m in Sources */,
+				2B0C0E0F1832C9D8006C5CFC /* CJSONSerializer.m in Sources */,
+				B1A11BC313F1B8A700F8A7E5 /* OAConsumer.m in Sources */,
+				B1A11BC413F1B8A700F8A7E5 /* OADataFetcher.m in Sources */,
+				B1A11BC513F1B8A700F8A7E5 /* OAHMAC_SHA1SignatureProvider.m in Sources */,
+				B1A11BC613F1B8A700F8A7E5 /* OAMutableURLRequest.m in Sources */,
+				B1A11BC713F1B8A700F8A7E5 /* OAPlaintextSignatureProvider.m in Sources */,
+				B1A11BC813F1B8A700F8A7E5 /* OARequestParameter.m in Sources */,
+				B1A11BC913F1B8A700F8A7E5 /* OAServiceTicket.m in Sources */,
+				B1A11BCA13F1B8A700F8A7E5 /* OAToken.m in Sources */,
+				2B0C0E0B1832C9D8006C5CFC /* CJSONDeserializer.m in Sources */,
+				B1A11BCB13F1B8BA00F8A7E5 /* BitlyTwitterOAuthViewController.m in Sources */,
+				B1A11BCC13F1B8BA00F8A7E5 /* BitlyTwitterOAuthManager.m in Sources */,
+				B1A11BCD13F1B8BA00F8A7E5 /* BitlyTwitterOAuthAccount.m in Sources */,
+				2B0C0DF41832C9AA006C5CFC /* CFilteringJSONSerializer.m in Sources */,
+				B1A11BCE13F1B8BA00F8A7E5 /* BitlyRequest.m in Sources */,
+				2B0C0E001832C9C6006C5CFC /* CDataScanner_Extensions.m in Sources */,
+				B1A11BCF13F1B8BA00F8A7E5 /* BitlyURLShortener.m in Sources */,
+				B1A11BD013F1B8BA00F8A7E5 /* BitlyTextView.m in Sources */,
+				2B0C0DF61832C9AA006C5CFC /* CJSONDeserializer_BlocksExtensions.m in Sources */,
+				B1A11BD113F1B8BA00F8A7E5 /* BitlyTweetSheet.m in Sources */,
+				B1A11BD213F1B8BA00F8A7E5 /* BitlyLibUtil.m in Sources */,
+				B1A11BD313F1B8BA00F8A7E5 /* BitlyTweetSheetAccountSelector.m in Sources */,
+				B1A11BD413F1B8BA00F8A7E5 /* BitlyDebug.m in Sources */,
+				B15CACA913F5A229006D7EE7 /* BitlyConfig.m in Sources */,
+				2B0C0E021832C9C6006C5CFC /* NSDictionary_JSONExtensions.m in Sources */,
+				2B0C0DF81832C9AA006C5CFC /* CJSONSerialization.m in Sources */,
+				2B0C0DEA1832C994006C5CFC /* CDataScanner.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B149ABF413B24BC700E58291 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJCPP_ARC_ABI = NO;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				MACH_O_TYPE = staticlib;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B149ABF513B24BC700E58291 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJCPP_ARC_ABI = NO;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B1A11BB613F1B86A00F8A7E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				DEPLOYMENT_LOCATION = NO;
+				DSTROOT = /tmp/bitly.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BitlyLib/BitlyLib-Prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		B1A11BB713F1B86A00F8A7E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				DEPLOYMENT_LOCATION = NO;
+				DSTROOT = /tmp/bitly.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BitlyLib/BitlyLib-Prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B149ABCE13B24BC700E58291 /* Build configuration list for PBXProject "BitlyLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B149ABF413B24BC700E58291 /* Debug */,
+				B149ABF513B24BC700E58291 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1A11BB513F1B86A00F8A7E5 /* Build configuration list for PBXNativeTarget "Bitly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1A11BB613F1B86A00F8A7E5 /* Debug */,
+				B1A11BB713F1B86A00F8A7E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B149ABCB13B24BC700E58291 /* Project object */;
+}

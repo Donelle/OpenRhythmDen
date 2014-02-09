@@ -1,0 +1,1118 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A51E21614E430F900FF2D68 /* Missing-Art-Cover-Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A51E21514E430F900FF2D68 /* Missing-Art-Cover-Icon.png */; };
+		2B00E36118036070004B19B7 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B00E36018036070004B19B7 /* StoreKit.framework */; };
+		2B00E364180369EE004B19B7 /* RDAboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B00E363180369ED004B19B7 /* RDAboutViewController.m */; };
+		2B091C6C17F7766400470D20 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B091C6B17F7766400470D20 /* CoreImage.framework */; };
+		2B091C7117F77EDB00470D20 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B091C7017F77EDB00470D20 /* Accelerate.framework */; };
+		2B091C8117F7859100470D20 /* pause.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B091C7717F7859100470D20 /* pause.png */; };
+		2B091C8217F7859100470D20 /* pause@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B091C7817F7859100470D20 /* pause@2x.png */; };
+		2B091C8317F7859100470D20 /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B091C7917F7859100470D20 /* play.png */; };
+		2B091C8417F7859100470D20 /* play@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B091C7A17F7859100470D20 /* play@2x.png */; };
+		2B091C8517F7859100470D20 /* repeat.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B091C7B17F7859100470D20 /* repeat.png */; };
+		2B091C8617F7859100470D20 /* repeat@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B091C7C17F7859100470D20 /* repeat@2x.png */; };
+		2B0C0DD11832914A006C5CFC /* facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B0C0DCD1832914A006C5CFC /* facebook.png */; };
+		2B0C0DD21832914A006C5CFC /* facebook@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B0C0DCE1832914A006C5CFC /* facebook@2x.png */; };
+		2B0C0DD31832914A006C5CFC /* twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B0C0DCF1832914A006C5CFC /* twitter.png */; };
+		2B0C0DD41832914A006C5CFC /* twitter@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B0C0DD01832914A006C5CFC /* twitter@2x.png */; };
+		2B0C0DD518329213006C5CFC /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48AFC29B182751F00012EA64 /* Social.framework */; };
+		2B0C0DDC1832AE87006C5CFC /* NSString+RhythmDen.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0C0DDB1832AE87006C5CFC /* NSString+RhythmDen.m */; };
+		2B0C0DDF1832B222006C5CFC /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0C0DDE1832B222006C5CFC /* JSONKit.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		2B0C0E121832CA04006C5CFC /* libBitly.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B0C0E111832CA04006C5CFC /* libBitly.a */; };
+		2B0C0E181832D2F1006C5CFC /* RDiTunesSearchService.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0C0E171832D2F1006C5CFC /* RDiTunesSearchService.m */; };
+		2B0C0E191832D939006C5CFC /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48AFC2A21827535C0012EA64 /* Twitter.framework */; };
+		2B0C0E1A1832DAA3006C5CFC /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48AFC29F182752400012EA64 /* Accounts.framework */; };
+		2B1615FD1857E4EF00372A98 /* iRate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1615FC1857E4EF00372A98 /* iRate.m */; };
+		2B1E701F16D19D6F008371D9 /* RDPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1E701E16D19D6F008371D9 /* RDPlayerViewController.m */; };
+		2B2CACFE18294BCA00BBDCB9 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B2CACFD18294BCA00BBDCB9 /* AssetsLibrary.framework */; };
+		2B4355BD16D71AA000636711 /* RDModels+RhythmDen.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B4355BC16D71AA000636711 /* RDModels+RhythmDen.m */; };
+		2B4F95E41808FBF400E42846 /* RDPlayerTutorialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B4F95E31808FBF400E42846 /* RDPlayerTutorialViewController.m */; };
+		2B91EE6916C80CDF00E61503 /* RDPreferenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B91EE6816C80CDF00E61503 /* RDPreferenceViewController.m */; };
+		2B91EE7416C80EB400E61503 /* RDDropboxSyncService.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B91EE6E16C80EB400E61503 /* RDDropboxSyncService.m */; };
+		2B91EE7516C80EB400E61503 /* RDDropboxPreference.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B91EE7016C80EB400E61503 /* RDDropboxPreference.m */; };
+		2B91EE8E16C83D2200E61503 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B91EE8D16C83D2200E61503 /* Default-568h@2x.png */; };
+		2B91EEAD16C8788500E61503 /* DBSession+RhythmDen.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B91EEAB16C8788500E61503 /* DBSession+RhythmDen.m */; };
+		2BA473E2183542B5005927A6 /* RDSwipeableTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BA473E1183542B5005927A6 /* RDSwipeableTableViewCell.m */; };
+		2BA6F358183A6D8D0099A0F4 /* message.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BA6F356183A6D8D0099A0F4 /* message.png */; };
+		2BA6F359183A6D8D0099A0F4 /* message@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BA6F357183A6D8D0099A0F4 /* message@2x.png */; };
+		2BC8865F186FB80A0060F8A6 /* RDAlbumModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BC8865E186FB80A0060F8A6 /* RDAlbumModel.m */; };
+		2BEF2F9C182AEC9F009E66B0 /* RDFrostView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BEF2F9B182AEC9F009E66B0 /* RDFrostView.m */; };
+		2BEF2FA0182B374A009E66B0 /* GPUImage-LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2BEF2F9F182B374A009E66B0 /* GPUImage-LICENSE.txt */; };
+		2BF01B181813124000BFB434 /* blank.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2BF01B171813124000BFB434 /* blank.mp3 */; };
+		2BF01B1A1813657800BFB434 /* mix-coverart.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2BF01B191813657800BFB434 /* mix-coverart.jpg */; };
+		2BF01B1C18137BBE00BFB434 /* mix-coverart-thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2BF01B1B18137BBE00BFB434 /* mix-coverart-thumb.jpg */; };
+		2BF01B1F181389C900BFB434 /* dropbox.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BF01B1D181389C900BFB434 /* dropbox.png */; };
+		2BF01B20181389C900BFB434 /* dropbox@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BF01B1E181389C900BFB434 /* dropbox@2x.png */; };
+		2BFB711717FB2EB9008E3EE6 /* MSCellAccessory.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BFB711617FB2EB9008E3EE6 /* MSCellAccessory.m */; };
+		2BFB711A17FB2EF0008E3EE6 /* UIView+AccessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BFB711917FB2EF0008E3EE6 /* UIView+AccessViewController.m */; };
+		2BFB712217FCA762008E3EE6 /* UIColor+RhythmDen.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BFB712117FCA762008E3EE6 /* UIColor+RhythmDen.m */; };
+		48086199181B432900B81263 /* sort-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 48086198181B432900B81263 /* sort-icon@2x.png */; };
+		480B7DAB1711B6D500496779 /* Font-BEBAS.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 480B7DAA1711B6D500496779 /* Font-BEBAS.ttf */; };
+		48107D75180DCE160048DA31 /* ActionSheetPicker-LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 48107D71180DCE160048DA31 /* ActionSheetPicker-LICENSE.txt */; };
+		48107D76180DCE160048DA31 /* MSCellAccessory-LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 48107D72180DCE160048DA31 /* MSCellAccessory-LICENSE.txt */; };
+		48107D7B180DD33D0048DA31 /* Tapku-Library-LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 48107D79180DD33D0048DA31 /* Tapku-Library-LICENSE.txt */; };
+		48107D7C180DD33D0048DA31 /* Ubuntu-Font-LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 48107D7A180DD33D0048DA31 /* Ubuntu-Font-LICENSE.txt */; };
+		481717A717E60676000B9FCB /* RDMixViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 481717A617E60676000B9FCB /* RDMixViewController.m */; };
+		4821C300150D5F31007F25AE /* Font-Ubuntu-C.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4821C2FE150D5F31007F25AE /* Font-Ubuntu-C.ttf */; };
+		4827A1FC1810D729003538DA /* DropboxTutorial01.png in Resources */ = {isa = PBXBuildFile; fileRef = 4827A1FB1810D729003538DA /* DropboxTutorial01.png */; };
+		4827A2001810E617003538DA /* DropboxTutorial02.png in Resources */ = {isa = PBXBuildFile; fileRef = 4827A1FF1810E617003538DA /* DropboxTutorial02.png */; };
+		4827A20218118BC9003538DA /* DropboxTutorial03.png in Resources */ = {isa = PBXBuildFile; fileRef = 4827A20118118BC9003538DA /* DropboxTutorial03.png */; };
+		4827A20518118FC0003538DA /* help.png in Resources */ = {isa = PBXBuildFile; fileRef = 4827A20318118FC0003538DA /* help.png */; };
+		4827A20618118FC0003538DA /* help@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4827A20418118FC0003538DA /* help@2x.png */; };
+		4827A20918119042003538DA /* RDTutorialsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4827A20818119042003538DA /* RDTutorialsViewController.m */; };
+		482D63D4185906D40077982D /* RDArtistModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 482D63D3185906D40077982D /* RDArtistModel.m */; };
+		482D63D7185A17C10077982D /* RDPlaylistModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 482D63D6185A17C10077982D /* RDPlaylistModel.m */; };
+		482D63DA185A19290077982D /* RDTrackModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 482D63D9185A19290077982D /* RDTrackModel.m */; };
+		4831DA60180860100038BF61 /* DETAnimatedTransitionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4831DA5F180860100038BF61 /* DETAnimatedTransitionController.m */; };
+		48371C071850F3CE00C5E080 /* RDDropboxSyncMetaModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 48371C061850F3CE00C5E080 /* RDDropboxSyncMetaModel.m */; };
+		48371C221851612C00C5E080 /* verify.png in Resources */ = {isa = PBXBuildFile; fileRef = 48371C201851612C00C5E080 /* verify.png */; };
+		48371C231851612C00C5E080 /* verify@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 48371C211851612C00C5E080 /* verify@2x.png */; };
+		484023C418562A850081D0D5 /* revert.png in Resources */ = {isa = PBXBuildFile; fileRef = 484023C218562A850081D0D5 /* revert.png */; };
+		484023C518562A850081D0D5 /* revert@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 484023C318562A850081D0D5 /* revert@2x.png */; };
+		484EFEED17F0D2EE000BEAB4 /* tabbar-music.png in Resources */ = {isa = PBXBuildFile; fileRef = 484EFEEB17F0D2EE000BEAB4 /* tabbar-music.png */; };
+		484EFEEE17F0D2EE000BEAB4 /* tabbar-settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 484EFEEC17F0D2EE000BEAB4 /* tabbar-settings.png */; };
+		484EFEF317F1CB3E000BEAB4 /* tabbar-favorites.png in Resources */ = {isa = PBXBuildFile; fileRef = 484EFEEF17F1CB3E000BEAB4 /* tabbar-favorites.png */; };
+		484EFEF417F1CB3E000BEAB4 /* tabbar-favorites@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 484EFEF017F1CB3E000BEAB4 /* tabbar-favorites@2x.png */; };
+		484EFEF517F1CB3E000BEAB4 /* tabbar-music@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 484EFEF117F1CB3E000BEAB4 /* tabbar-music@2x.png */; };
+		484EFEF617F1CB3E000BEAB4 /* tabbar-settings@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 484EFEF217F1CB3E000BEAB4 /* tabbar-settings@2x.png */; };
+		48500E8A14AAAEA80015A5DE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48500E8914AAAEA80015A5DE /* UIKit.framework */; };
+		48500E8C14AAAEA80015A5DE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48500E8B14AAAEA80015A5DE /* Foundation.framework */; };
+		48500E8E14AAAEA80015A5DE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48500E8D14AAAEA80015A5DE /* CoreGraphics.framework */; };
+		48500E9414AAAEA80015A5DE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 48500E9214AAAEA80015A5DE /* InfoPlist.strings */; };
+		48500E9614AAAEA80015A5DE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 48500E9514AAAEA80015A5DE /* main.m */; };
+		48500E9A14AAAEA80015A5DE /* RDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 48500E9914AAAEA80015A5DE /* RDAppDelegate.m */; };
+		48500EA714AAAF0A0015A5DE /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48500EA614AAAF0A0015A5DE /* MediaPlayer.framework */; };
+		48533DB11816042F00529BF6 /* MusicLibrary.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 48533DAF1816042F00529BF6 /* MusicLibrary.xcdatamodeld */; };
+		48566E951810283600976833 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48566E941810283600976833 /* MessageUI.framework */; };
+		48566E9C181037DE00976833 /* share.png in Resources */ = {isa = PBXBuildFile; fileRef = 48566E9A181037DE00976833 /* share.png */; };
+		48566E9D181037DE00976833 /* share@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 48566E9B181037DE00976833 /* share@2x.png */; };
+		485BECC9173FBB2E00DBBA7E /* sync.png in Resources */ = {isa = PBXBuildFile; fileRef = 485BECC8173FBB2E00DBBA7E /* sync.png */; };
+		485C3AB617FF0AC100F53E7F /* favorite.png in Resources */ = {isa = PBXBuildFile; fileRef = 485C3AB417FF0AC100F53E7F /* favorite.png */; };
+		485C3AB717FF0AC100F53E7F /* favorite@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 485C3AB517FF0AC100F53E7F /* favorite@2x.png */; };
+		485C3ABC17FF274900F53E7F /* AbstractActionSheetPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 485C3AB917FF274900F53E7F /* AbstractActionSheetPicker.m */; };
+		485C3ABD17FF274900F53E7F /* ActionSheetStringPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 485C3ABB17FF274900F53E7F /* ActionSheetStringPicker.m */; };
+		485C3AC117FF3D5B00F53E7F /* TKGlobal.m in Sources */ = {isa = PBXBuildFile; fileRef = 485C3AC017FF3D5B00F53E7F /* TKGlobal.m */; };
+		485C3AC417FF3D7400F53E7F /* TKAlertCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 485C3AC317FF3D7400F53E7F /* TKAlertCenter.m */; };
+		485C3ACA17FF3DE100F53E7F /* UIView+TKCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 485C3AC917FF3DE100F53E7F /* UIView+TKCategory.m */; };
+		487275FC17F61CF000513DE2 /* sort-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 487275FB17F61CF000513DE2 /* sort-icon.png */; };
+		4872760517F63C2000513DE2 /* RDMusicRepository.m in Sources */ = {isa = PBXBuildFile; fileRef = 4872760417F63C2000513DE2 /* RDMusicRepository.m */; };
+		4872760A17F63C5900513DE2 /* RDAppPreference.m in Sources */ = {isa = PBXBuildFile; fileRef = 4872760717F63C5900513DE2 /* RDAppPreference.m */; };
+		4872760B17F63C5900513DE2 /* RDPreference.m in Sources */ = {isa = PBXBuildFile; fileRef = 4872760917F63C5900513DE2 /* RDPreference.m */; };
+		4872761117F63C9200513DE2 /* RDInternetDetectionActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4872761017F63C9200513DE2 /* RDInternetDetectionActionSheet.m */; };
+		4872761317F63CEF00513DE2 /* iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4872761217F63CEF00513DE2 /* iPhone.storyboard */; };
+		4872762417F6773C00513DE2 /* LEColorPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 4872762317F6773C00513DE2 /* LEColorPicker.m */; };
+		4872762717F6775E00513DE2 /* UIColor+YUVSpace.m in Sources */ = {isa = PBXBuildFile; fileRef = 4872762617F6775E00513DE2 /* UIColor+YUVSpace.m */; };
+		4872762917F67AD500513DE2 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4872762817F67AD500513DE2 /* OpenGLES.framework */; };
+		4872762C17F87A3F00513DE2 /* stop.png in Resources */ = {isa = PBXBuildFile; fileRef = 4872762A17F87A3F00513DE2 /* stop.png */; };
+		4872762D17F87A3F00513DE2 /* stop@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4872762B17F87A3F00513DE2 /* stop@2x.png */; };
+		4872762F17F889F800513DE2 /* sync@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4872762E17F889F800513DE2 /* sync@2x.png */; };
+		4872763417F8955500513DE2 /* now-playing.png in Resources */ = {isa = PBXBuildFile; fileRef = 4872763017F8955500513DE2 /* now-playing.png */; };
+		4872763517F8955500513DE2 /* now-playing@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4872763117F8955500513DE2 /* now-playing@2x.png */; };
+		4872763C17F8A25800513DE2 /* UIImage+RhythmDen.m in Sources */ = {isa = PBXBuildFile; fileRef = 4872763B17F8A25800513DE2 /* UIImage+RhythmDen.m */; };
+		48797B8317090B43008AAD65 /* transparent.png in Resources */ = {isa = PBXBuildFile; fileRef = 48797B8217090B43008AAD65 /* transparent.png */; };
+		487B871A1752C379009A3228 /* RDMusicResourceCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 487B87191752C379009A3228 /* RDMusicResourceCache.m */; };
+		487E71ED180494EE004F0C8A /* Icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 487E71EA180494EE004F0C8A /* Icon-72@2x.png */; };
+		487E71EE180494EE004F0C8A /* Icon-Small-50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 487E71EB180494EE004F0C8A /* Icon-Small-50@2x.png */; };
+		487E71EF180494EE004F0C8A /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 487E71EC180494EE004F0C8A /* Icon-Small@2x.png */; };
+		4880A3B11836EA2700FA7A45 /* check.png in Resources */ = {isa = PBXBuildFile; fileRef = 4880A3AF1836EA2700FA7A45 /* check.png */; };
+		4880A3B21836EA2700FA7A45 /* check@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4880A3B01836EA2700FA7A45 /* check@2x.png */; };
+		4885368917498FEE0087F6BE /* UINavigationController+RDViewRotationSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 4885368817498FEE0087F6BE /* UINavigationController+RDViewRotationSupport.m */; };
+		48881997172DBD440019CE38 /* RDMusicLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = 48881996172DBD440019CE38 /* RDMusicLibrary.m */; };
+		4889145817776DEC00120CEF /* RDAppViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4889145717776DEC00120CEF /* RDAppViewController.m */; };
+		488914651777AF9100120CEF /* NSArray+RhythmDen.m in Sources */ = {isa = PBXBuildFile; fileRef = 488914641777AF9100120CEF /* NSArray+RhythmDen.m */; };
+		48941843174849A900925892 /* RDDropboxMusicStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 48941842174849A900925892 /* RDDropboxMusicStream.m */; };
+		489A09DF14C71D3B000D4BD0 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 489A09DE14C71D3B000D4BD0 /* CoreData.framework */; };
+		489C328616E41E7E0019ABF2 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 489C328516E41E7E0019ABF2 /* Reachability.m */; };
+		489C328816E47E3F0019ABF2 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 489C328716E47E3F0019ABF2 /* AVFoundation.framework */; };
+		489C328C16E47F0E0019ABF2 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 489C328B16E47F0E0019ABF2 /* CoreMedia.framework */; };
+		489D1E07180894AF005403E5 /* RDDropboxTutorialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 489D1E06180894AF005403E5 /* RDDropboxTutorialViewController.m */; };
+		48AAE82E180B871B00D8EC1C /* UIDevice+RhythmDen.m in Sources */ = {isa = PBXBuildFile; fileRef = 48AAE82D180B871B00D8EC1C /* UIDevice+RhythmDen.m */; };
+		48AF0B8217F49B300087541A /* NSObject+RhythmDen.m in Sources */ = {isa = PBXBuildFile; fileRef = 48AF0B8117F49B300087541A /* NSObject+RhythmDen.m */; };
+		48AFC29A182745F50012EA64 /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48AFC299182745F50012EA64 /* AddressBookUI.framework */; };
+		48AFC2A41827536B0012EA64 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48AFC29D182752310012EA64 /* AddressBook.framework */; };
+		48AFC2A6182760E50012EA64 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48AFC2A5182760E50012EA64 /* CoreLocation.framework */; };
+		48BAE41B1862827C003632E7 /* MusicLibraryToMusicLibraryV2.xcmappingmodel in Sources */ = {isa = PBXBuildFile; fileRef = 48BAE41A1862827C003632E7 /* MusicLibraryToMusicLibraryV2.xcmappingmodel */; };
+		48BDB2CD14ACB684002DEEA2 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48BDB2CC14ACB684002DEEA2 /* QuartzCore.framework */; };
+		48D9A5AD16DAD9CF00CB57BD /* RDMusicPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 48D9A5AC16DAD9CF00CB57BD /* RDMusicPlayer.m */; };
+		48E456AC16D5C61200E9C12A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48E456AB16D5C61200E9C12A /* SystemConfiguration.framework */; };
+		48E7F3F217FE5A49009ED0AF /* delete.png in Resources */ = {isa = PBXBuildFile; fileRef = 48E7F3F017FE5A49009ED0AF /* delete.png */; };
+		48E7F3F317FE5A49009ED0AF /* delete@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 48E7F3F117FE5A49009ED0AF /* delete@2x.png */; };
+		48E7F3F617FE5EE2009ED0AF /* RDAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 48E7F3F517FE5EE2009ED0AF /* RDAlertView.m */; };
+		48EB2F4D18188A8100852664 /* UIApplication+RhythmDen.m in Sources */ = {isa = PBXBuildFile; fileRef = 48EB2F4C18188A8100852664 /* UIApplication+RhythmDen.m */; };
+		48F44E98182D64B4003D3BBF /* libGPUImageSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 48F44E95182D64B4003D3BBF /* libGPUImageSDK.a */; };
+		48F44E99182D64B4003D3BBF /* libSDropboxSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 48F44E96182D64B4003D3BBF /* libSDropboxSDK.a */; };
+		48FA63E21860B0B300B3F5B2 /* RDLibraryMetaModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 48FA63E11860B0B300B3F5B2 /* RDLibraryMetaModel.m */; };
+		7F89484214B3AA9F005E907B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F89483E14B3AA9F005E907B /* Default.png */; };
+		7F89484314B3AA9F005E907B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F89483F14B3AA9F005E907B /* Default@2x.png */; };
+		7F89484414B3AA9F005E907B /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F89484014B3AA9F005E907B /* Icon.png */; };
+		7F89484514B3AA9F005E907B /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F89484114B3AA9F005E907B /* Icon@2x.png */; };
+		7F89488414B3AD85005E907B /* RDLibraryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F89487D14B3AD85005E907B /* RDLibraryViewController.m */; };
+		7F89488614B3AD85005E907B /* RDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F89488114B3AD85005E907B /* RDViewController.m */; };
+		7F89498914B3B7DD005E907B /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F89498814B3B7DD005E907B /* Security.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0A51E21514E430F900FF2D68 /* Missing-Art-Cover-Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Missing-Art-Cover-Icon.png"; path = "RhythmDen/Resources/Missing-Art-Cover-Icon.png"; sourceTree = "<group>"; };
+		2B00E36018036070004B19B7 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		2B00E362180369ED004B19B7 /* RDAboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RDAboutViewController.h; path = Controllers/RDAboutViewController.h; sourceTree = "<group>"; };
+		2B00E363180369ED004B19B7 /* RDAboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RDAboutViewController.m; path = Controllers/RDAboutViewController.m; sourceTree = "<group>"; };
+		2B091C6B17F7766400470D20 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		2B091C7017F77EDB00470D20 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		2B091C7717F7859100470D20 /* pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pause.png; path = RhythmDen/Resources/pause.png; sourceTree = "<group>"; };
+		2B091C7817F7859100470D20 /* pause@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "pause@2x.png"; path = "RhythmDen/Resources/pause@2x.png"; sourceTree = "<group>"; };
+		2B091C7917F7859100470D20 /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = play.png; path = RhythmDen/Resources/play.png; sourceTree = "<group>"; };
+		2B091C7A17F7859100470D20 /* play@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "play@2x.png"; path = "RhythmDen/Resources/play@2x.png"; sourceTree = "<group>"; };
+		2B091C7B17F7859100470D20 /* repeat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = repeat.png; path = RhythmDen/Resources/repeat.png; sourceTree = "<group>"; };
+		2B091C7C17F7859100470D20 /* repeat@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "repeat@2x.png"; path = "RhythmDen/Resources/repeat@2x.png"; sourceTree = "<group>"; };
+		2B0C0DCD1832914A006C5CFC /* facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = facebook.png; path = RhythmDen/Resources/facebook.png; sourceTree = "<group>"; };
+		2B0C0DCE1832914A006C5CFC /* facebook@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "facebook@2x.png"; path = "RhythmDen/Resources/facebook@2x.png"; sourceTree = "<group>"; };
+		2B0C0DCF1832914A006C5CFC /* twitter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = twitter.png; path = RhythmDen/Resources/twitter.png; sourceTree = "<group>"; };
+		2B0C0DD01832914A006C5CFC /* twitter@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "twitter@2x.png"; path = "RhythmDen/Resources/twitter@2x.png"; sourceTree = "<group>"; };
+		2B0C0DDA1832AE87006C5CFC /* NSString+RhythmDen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+RhythmDen.h"; path = "Utilities/NSString+RhythmDen.h"; sourceTree = "<group>"; };
+		2B0C0DDB1832AE87006C5CFC /* NSString+RhythmDen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+RhythmDen.m"; path = "Utilities/NSString+RhythmDen.m"; sourceTree = "<group>"; };
+		2B0C0DDD1832B222006C5CFC /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
+		2B0C0DDE1832B222006C5CFC /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
+		2B0C0E111832CA04006C5CFC /* libBitly.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libBitly.a; path = "../../Library/Developer/Xcode/DerivedData/Rhythm-cjlxutkzwwwodlbqsvicrpnhqbsb/Build/Products/Debug-iphoneos/libBitly.a"; sourceTree = "<group>"; };
+		2B0C0E161832D2F1006C5CFC /* RDiTunesSearchService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDiTunesSearchService.h; sourceTree = "<group>"; };
+		2B0C0E171832D2F1006C5CFC /* RDiTunesSearchService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDiTunesSearchService.m; sourceTree = "<group>"; };
+		2B1615EB184D767200372A98 /* MusicLibraryv2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MusicLibraryv2.xcdatamodel; sourceTree = "<group>"; };
+		2B1615FB1857E4EF00372A98 /* iRate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iRate.h; sourceTree = "<group>"; };
+		2B1615FC1857E4EF00372A98 /* iRate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iRate.m; sourceTree = "<group>"; };
+		2B1E701D16D19D6F008371D9 /* RDPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RDPlayerViewController.h; path = Controllers/RDPlayerViewController.h; sourceTree = "<group>"; };
+		2B1E701E16D19D6F008371D9 /* RDPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RDPlayerViewController.m; path = Controllers/RDPlayerViewController.m; sourceTree = "<group>"; };
+		2B2CACFD18294BCA00BBDCB9 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		2B4355BB16D71AA000636711 /* RDModels+RhythmDen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "RDModels+RhythmDen.h"; path = "Utilities/RDModels+RhythmDen.h"; sourceTree = "<group>"; };
+		2B4355BC16D71AA000636711 /* RDModels+RhythmDen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "RDModels+RhythmDen.m"; path = "Utilities/RDModels+RhythmDen.m"; sourceTree = "<group>"; };
+		2B4F95E21808FBF400E42846 /* RDPlayerTutorialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RDPlayerTutorialViewController.h; path = Controllers/RDPlayerTutorialViewController.h; sourceTree = "<group>"; };
+		2B4F95E31808FBF400E42846 /* RDPlayerTutorialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RDPlayerTutorialViewController.m; path = Controllers/RDPlayerTutorialViewController.m; sourceTree = "<group>"; };
+		2B91EE6716C80CDF00E61503 /* RDPreferenceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RDPreferenceViewController.h; path = Controllers/RDPreferenceViewController.h; sourceTree = "<group>"; };
+		2B91EE6816C80CDF00E61503 /* RDPreferenceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RDPreferenceViewController.m; path = Controllers/RDPreferenceViewController.m; sourceTree = "<group>"; };
+		2B91EE6D16C80EB400E61503 /* RDDropboxSyncService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDDropboxSyncService.h; sourceTree = "<group>"; };
+		2B91EE6E16C80EB400E61503 /* RDDropboxSyncService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDDropboxSyncService.m; sourceTree = "<group>"; };
+		2B91EE6F16C80EB400E61503 /* RDDropboxPreference.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDDropboxPreference.h; sourceTree = "<group>"; };
+		2B91EE7016C80EB400E61503 /* RDDropboxPreference.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDDropboxPreference.m; sourceTree = "<group>"; };
+		2B91EE8D16C83D2200E61503 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "RhythmDen/Resources/Default-568h@2x.png"; sourceTree = "<group>"; };
+		2B91EEAA16C8788500E61503 /* DBSession+RhythmDen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "DBSession+RhythmDen.h"; path = "Utilities/DBSession+RhythmDen.h"; sourceTree = "<group>"; };
+		2B91EEAB16C8788500E61503 /* DBSession+RhythmDen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "DBSession+RhythmDen.m"; path = "Utilities/DBSession+RhythmDen.m"; sourceTree = "<group>"; };
+		2BA473E0183542B5005927A6 /* RDSwipeableTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDSwipeableTableViewCell.h; sourceTree = "<group>"; };
+		2BA473E1183542B5005927A6 /* RDSwipeableTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDSwipeableTableViewCell.m; sourceTree = "<group>"; };
+		2BA6F356183A6D8D0099A0F4 /* message.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = message.png; path = RhythmDen/Resources/message.png; sourceTree = "<group>"; };
+		2BA6F357183A6D8D0099A0F4 /* message@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "message@2x.png"; path = "RhythmDen/Resources/message@2x.png"; sourceTree = "<group>"; };
+		2BC8865D186FB80A0060F8A6 /* RDAlbumModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RDAlbumModel.h; path = Models/RDAlbumModel.h; sourceTree = "<group>"; };
+		2BC8865E186FB80A0060F8A6 /* RDAlbumModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RDAlbumModel.m; path = Models/RDAlbumModel.m; sourceTree = "<group>"; };
+		2BEF2F9A182AEC9F009E66B0 /* RDFrostView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDFrostView.h; sourceTree = "<group>"; };
+		2BEF2F9B182AEC9F009E66B0 /* RDFrostView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDFrostView.m; sourceTree = "<group>"; };
+		2BEF2F9F182B374A009E66B0 /* GPUImage-LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "GPUImage-LICENSE.txt"; path = "RhythmDen/Resources/GPUImage-LICENSE.txt"; sourceTree = "<group>"; };
+		2BF01B171813124000BFB434 /* blank.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = blank.mp3; path = RhythmDen/Resources/blank.mp3; sourceTree = "<group>"; };
+		2BF01B191813657800BFB434 /* mix-coverart.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "mix-coverart.jpg"; path = "RhythmDen/Resources/mix-coverart.jpg"; sourceTree = "<group>"; };
+		2BF01B1B18137BBE00BFB434 /* mix-coverart-thumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "mix-coverart-thumb.jpg"; path = "RhythmDen/Resources/mix-coverart-thumb.jpg"; sourceTree = "<group>"; };
+		2BF01B1D181389C900BFB434 /* dropbox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dropbox.png; path = RhythmDen/Resources/dropbox.png; sourceTree = "<group>"; };
+		2BF01B1E181389C900BFB434 /* dropbox@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "dropbox@2x.png"; path = "RhythmDen/Resources/dropbox@2x.png"; sourceTree = "<group>"; };
+		2BFB711517FB2EB9008E3EE6 /* MSCellAccessory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSCellAccessory.h; sourceTree = "<group>"; };
+		2BFB711617FB2EB9008E3EE6 /* MSCellAccessory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSCellAccessory.m; sourceTree = "<group>"; };
+		2BFB711817FB2EF0008E3EE6 /* UIView+AccessViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+AccessViewController.h"; path = "Utilities/UIView+AccessViewController.h"; sourceTree = "<group>"; };
+		2BFB711917FB2EF0008E3EE6 /* UIView+AccessViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+AccessViewController.m"; path = "Utilities/UIView+AccessViewController.m"; sourceTree = "<group>"; };
+		2BFB712017FCA762008E3EE6 /* UIColor+RhythmDen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+RhythmDen.h"; path = "Utilities/UIColor+RhythmDen.h"; sourceTree = "<group>"; };
+		2BFB712117FCA762008E3EE6 /* UIColor+RhythmDen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+RhythmDen.m"; path = "Utilities/UIColor+RhythmDen.m"; sourceTree = "<group>"; };
+		48086198181B432900B81263 /* sort-icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "sort-icon@2x.png"; path = "RhythmDen/Resources/sort-icon@2x.png"; sourceTree = "<group>"; };
+		480B7DAA1711B6D500496779 /* Font-BEBAS.ttf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "Font-BEBAS.ttf"; path = "RhythmDen/Resources/Font-BEBAS.ttf"; sourceTree = "<group>"; };
+		48107D71180DCE160048DA31 /* ActionSheetPicker-LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "ActionSheetPicker-LICENSE.txt"; path = "RhythmDen/Resources/ActionSheetPicker-LICENSE.txt"; sourceTree = "<group>"; };
+		48107D72180DCE160048DA31 /* MSCellAccessory-LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "MSCellAccessory-LICENSE.txt"; path = "RhythmDen/Resources/MSCellAccessory-LICENSE.txt"; sourceTree = "<group>"; };
+		48107D79180DD33D0048DA31 /* Tapku-Library-LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "Tapku-Library-LICENSE.txt"; path = "RhythmDen/Resources/Tapku-Library-LICENSE.txt"; sourceTree = "<group>"; };
+		48107D7A180DD33D0048DA31 /* Ubuntu-Font-LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "Ubuntu-Font-LICENSE.txt"; path = "RhythmDen/Resources/Ubuntu-Font-LICENSE.txt"; sourceTree = "<group>"; };
+		481717A517E60676000B9FCB /* RDMixViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RDMixViewController.h; path = Controllers/RDMixViewController.h; sourceTree = "<group>"; };
+		481717A617E60676000B9FCB /* RDMixViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RDMixViewController.m; path = Controllers/RDMixViewController.m; sourceTree = "<group>"; };
+		48172A8814C79DDB00EA8849 /* RDModels.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RDModels.h; path = Models/RDModels.h; sourceTree = "<group>"; };
+		48183ADB18044E4700545A7C /* RhythmDen.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = RhythmDen.entitlements; sourceTree = "<group>"; };
+		4821C2FE150D5F31007F25AE /* Font-Ubuntu-C.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Font-Ubuntu-C.ttf"; path = "RhythmDen/Resources/Font-Ubuntu-C.ttf"; sourceTree = "<group>"; };
+		4827A1FB1810D729003538DA /* DropboxTutorial01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = DropboxTutorial01.png; path = RhythmDen/Resources/DropboxTutorial01.png; sourceTree = "<group>"; };
+		4827A1FF1810E617003538DA /* DropboxTutorial02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = DropboxTutorial02.png; path = RhythmDen/Resources/DropboxTutorial02.png; sourceTree = "<group>"; };
+		4827A20118118BC9003538DA /* DropboxTutorial03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = DropboxTutorial03.png; path = RhythmDen/Resources/DropboxTutorial03.png; sourceTree = "<group>"; };
+		4827A20318118FC0003538DA /* help.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = help.png; path = RhythmDen/Resources/help.png; sourceTree = "<group>"; };
+		4827A20418118FC0003538DA /* help@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "help@2x.png"; path = "RhythmDen/Resources/help@2x.png"; sourceTree = "<group>"; };
+		4827A20718119042003538DA /* RDTutorialsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RDTutorialsViewController.h; path = Controllers/RDTutorialsViewController.h; sourceTree = "<group>"; };
+		4827A20818119042003538DA /* RDTutorialsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RDTutorialsViewController.m; path = Controllers/RDTutorialsViewController.m; sourceTree = "<group>"; };
+		482D63D2185906D40077982D /* RDArtistModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RDArtistModel.h; path = Models/RDArtistModel.h; sourceTree = "<group>"; };
+		482D63D3185906D40077982D /* RDArtistModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RDArtistModel.m; path = Models/RDArtistModel.m; sourceTree = "<group>"; };
+		482D63D5185A17C10077982D /* RDPlaylistModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RDPlaylistModel.h; path = Models/RDPlaylistModel.h; sourceTree = "<group>"; };
+		482D63D6185A17C10077982D /* RDPlaylistModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RDPlaylistModel.m; path = Models/RDPlaylistModel.m; sourceTree = "<group>"; };
+		482D63D8185A19290077982D /* RDTrackModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RDTrackModel.h; path = Models/RDTrackModel.h; sourceTree = "<group>"; };
+		482D63D9185A19290077982D /* RDTrackModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RDTrackModel.m; path = Models/RDTrackModel.m; sourceTree = "<group>"; };
+		4831DA5E180860100038BF61 /* DETAnimatedTransitionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DETAnimatedTransitionController.h; sourceTree = "<group>"; };
+		4831DA5F180860100038BF61 /* DETAnimatedTransitionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DETAnimatedTransitionController.m; sourceTree = "<group>"; };
+		48371C051850F3CE00C5E080 /* RDDropboxSyncMetaModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RDDropboxSyncMetaModel.h; path = Models/RDDropboxSyncMetaModel.h; sourceTree = "<group>"; };
+		48371C061850F3CE00C5E080 /* RDDropboxSyncMetaModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RDDropboxSyncMetaModel.m; path = Models/RDDropboxSyncMetaModel.m; sourceTree = "<group>"; };
+		48371C201851612C00C5E080 /* verify.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = verify.png; path = RhythmDen/Resources/verify.png; sourceTree = "<group>"; };
+		48371C211851612C00C5E080 /* verify@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "verify@2x.png"; path = "RhythmDen/Resources/verify@2x.png"; sourceTree = "<group>"; };
+		484023C218562A850081D0D5 /* revert.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = revert.png; path = RhythmDen/Resources/revert.png; sourceTree = "<group>"; };
+		484023C318562A850081D0D5 /* revert@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "revert@2x.png"; path = "RhythmDen/Resources/revert@2x.png"; sourceTree = "<group>"; };
+		484EFEEB17F0D2EE000BEAB4 /* tabbar-music.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "tabbar-music.png"; path = "RhythmDen/Resources/tabbar-music.png"; sourceTree = "<group>"; };
+		484EFEEC17F0D2EE000BEAB4 /* tabbar-settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "tabbar-settings.png"; path = "RhythmDen/Resources/tabbar-settings.png"; sourceTree = "<group>"; };
+		484EFEEF17F1CB3E000BEAB4 /* tabbar-favorites.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "tabbar-favorites.png"; path = "RhythmDen/Resources/tabbar-favorites.png"; sourceTree = "<group>"; };
+		484EFEF017F1CB3E000BEAB4 /* tabbar-favorites@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "tabbar-favorites@2x.png"; path = "RhythmDen/Resources/tabbar-favorites@2x.png"; sourceTree = "<group>"; };
+		484EFEF117F1CB3E000BEAB4 /* tabbar-music@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "tabbar-music@2x.png"; path = "RhythmDen/Resources/tabbar-music@2x.png"; sourceTree = "<group>"; };
+		484EFEF217F1CB3E000BEAB4 /* tabbar-settings@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "tabbar-settings@2x.png"; path = "RhythmDen/Resources/tabbar-settings@2x.png"; sourceTree = "<group>"; };
+		48500E8514AAAEA80015A5DE /* RhythmDen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RhythmDen.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		48500E8914AAAEA80015A5DE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		48500E8B14AAAEA80015A5DE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		48500E8D14AAAEA80015A5DE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		48500E9114AAAEA80015A5DE /* RhythmDen-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RhythmDen-Info.plist"; sourceTree = "<group>"; };
+		48500E9314AAAEA80015A5DE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		48500E9514AAAEA80015A5DE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		48500E9814AAAEA80015A5DE /* RDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RDAppDelegate.h; sourceTree = "<group>"; };
+		48500E9914AAAEA80015A5DE /* RDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RDAppDelegate.m; sourceTree = "<group>"; };
+		48500EA614AAAF0A0015A5DE /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		48533DB01816042F00529BF6 /* MusicLibrary.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MusicLibrary.xcdatamodel; sourceTree = "<group>"; };
+		48566E941810283600976833 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		48566E9A181037DE00976833 /* share.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = share.png; path = RhythmDen/Resources/share.png; sourceTree = "<group>"; };
+		48566E9B181037DE00976833 /* share@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "share@2x.png"; path = "RhythmDen/Resources/share@2x.png"; sourceTree = "<group>"; };
+		485BECC8173FBB2E00DBBA7E /* sync.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sync.png; path = RhythmDen/Resources/sync.png; sourceTree = "<group>"; };
+		485C3AB417FF0AC100F53E7F /* favorite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = favorite.png; path = RhythmDen/Resources/favorite.png; sourceTree = "<group>"; };
+		485C3AB517FF0AC100F53E7F /* favorite@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "favorite@2x.png"; path = "RhythmDen/Resources/favorite@2x.png"; sourceTree = "<group>"; };
+		485C3AB817FF274900F53E7F /* AbstractActionSheetPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractActionSheetPicker.h; sourceTree = "<group>"; };
+		485C3AB917FF274900F53E7F /* AbstractActionSheetPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AbstractActionSheetPicker.m; sourceTree = "<group>"; };
+		485C3ABA17FF274900F53E7F /* ActionSheetStringPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionSheetStringPicker.h; sourceTree = "<group>"; };
+		485C3ABB17FF274900F53E7F /* ActionSheetStringPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionSheetStringPicker.m; sourceTree = "<group>"; };
+		485C3ABF17FF3D5B00F53E7F /* TKGlobal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKGlobal.h; sourceTree = "<group>"; };
+		485C3AC017FF3D5B00F53E7F /* TKGlobal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKGlobal.m; sourceTree = "<group>"; };
+		485C3AC217FF3D7400F53E7F /* TKAlertCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKAlertCenter.h; sourceTree = "<group>"; };
+		485C3AC317FF3D7400F53E7F /* TKAlertCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKAlertCenter.m; sourceTree = "<group>"; };
+		485C3AC817FF3DE100F53E7F /* UIView+TKCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+TKCategory.h"; path = "Utilities/UIView+TKCategory.h"; sourceTree = "<group>"; };
+		485C3AC917FF3DE100F53E7F /* UIView+TKCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+TKCategory.m"; path = "Utilities/UIView+TKCategory.m"; sourceTree = "<group>"; };
+		487275FB17F61CF000513DE2 /* sort-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "sort-icon.png"; path = "RhythmDen/Resources/sort-icon.png"; sourceTree = "<group>"; };
+		4872760317F63C2000513DE2 /* RDMusicRepository.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDMusicRepository.h; sourceTree = "<group>"; };
+		4872760417F63C2000513DE2 /* RDMusicRepository.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDMusicRepository.m; sourceTree = "<group>"; };
+		4872760617F63C5900513DE2 /* RDAppPreference.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDAppPreference.h; sourceTree = "<group>"; };
+		4872760717F63C5900513DE2 /* RDAppPreference.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDAppPreference.m; sourceTree = "<group>"; };
+		4872760817F63C5900513DE2 /* RDPreference.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDPreference.h; sourceTree = "<group>"; };
+		4872760917F63C5900513DE2 /* RDPreference.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDPreference.m; sourceTree = "<group>"; };
+		4872760F17F63C9200513DE2 /* RDInternetDetectionActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDInternetDetectionActionSheet.h; sourceTree = "<group>"; };
+		4872761017F63C9200513DE2 /* RDInternetDetectionActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDInternetDetectionActionSheet.m; sourceTree = "<group>"; };
+		4872761217F63CEF00513DE2 /* iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = iPhone.storyboard; sourceTree = "<group>"; };
+		4872762217F6773C00513DE2 /* LEColorPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LEColorPicker.h; sourceTree = "<group>"; };
+		4872762317F6773C00513DE2 /* LEColorPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEColorPicker.m; sourceTree = "<group>"; };
+		4872762517F6775E00513DE2 /* UIColor+YUVSpace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+YUVSpace.h"; path = "Utilities/UIColor+YUVSpace.h"; sourceTree = "<group>"; };
+		4872762617F6775E00513DE2 /* UIColor+YUVSpace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+YUVSpace.m"; path = "Utilities/UIColor+YUVSpace.m"; sourceTree = "<group>"; };
+		4872762817F67AD500513DE2 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		4872762A17F87A3F00513DE2 /* stop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = stop.png; path = RhythmDen/Resources/stop.png; sourceTree = "<group>"; };
+		4872762B17F87A3F00513DE2 /* stop@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "stop@2x.png"; path = "RhythmDen/Resources/stop@2x.png"; sourceTree = "<group>"; };
+		4872762E17F889F800513DE2 /* sync@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "sync@2x.png"; path = "RhythmDen/Resources/sync@2x.png"; sourceTree = "<group>"; };
+		4872763017F8955500513DE2 /* now-playing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "now-playing.png"; path = "RhythmDen/Resources/now-playing.png"; sourceTree = "<group>"; };
+		4872763117F8955500513DE2 /* now-playing@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "now-playing@2x.png"; path = "RhythmDen/Resources/now-playing@2x.png"; sourceTree = "<group>"; };
+		4872763A17F8A25800513DE2 /* UIImage+RhythmDen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+RhythmDen.h"; path = "Utilities/UIImage+RhythmDen.h"; sourceTree = "<group>"; };
+		4872763B17F8A25800513DE2 /* UIImage+RhythmDen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+RhythmDen.m"; path = "Utilities/UIImage+RhythmDen.m"; sourceTree = "<group>"; };
+		48797B8217090B43008AAD65 /* transparent.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = transparent.png; path = RhythmDen/Resources/transparent.png; sourceTree = "<group>"; };
+		487B87181752C379009A3228 /* RDMusicResourceCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDMusicResourceCache.h; sourceTree = "<group>"; };
+		487B87191752C379009A3228 /* RDMusicResourceCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDMusicResourceCache.m; sourceTree = "<group>"; };
+		487E71EA180494EE004F0C8A /* Icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-72@2x.png"; path = "RhythmDen/Resources/Icon-72@2x.png"; sourceTree = "<group>"; };
+		487E71EB180494EE004F0C8A /* Icon-Small-50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small-50@2x.png"; path = "RhythmDen/Resources/Icon-Small-50@2x.png"; sourceTree = "<group>"; };
+		487E71EC180494EE004F0C8A /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small@2x.png"; path = "RhythmDen/Resources/Icon-Small@2x.png"; sourceTree = "<group>"; };
+		4880A3AF1836EA2700FA7A45 /* check.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = check.png; path = RhythmDen/Resources/check.png; sourceTree = "<group>"; };
+		4880A3B01836EA2700FA7A45 /* check@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "check@2x.png"; path = "RhythmDen/Resources/check@2x.png"; sourceTree = "<group>"; };
+		4885368717498FED0087F6BE /* UINavigationController+RDViewRotationSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UINavigationController+RDViewRotationSupport.h"; path = "Utilities/UINavigationController+RDViewRotationSupport.h"; sourceTree = "<group>"; };
+		4885368817498FEE0087F6BE /* UINavigationController+RDViewRotationSupport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UINavigationController+RDViewRotationSupport.m"; path = "Utilities/UINavigationController+RDViewRotationSupport.m"; sourceTree = "<group>"; };
+		48881995172DBD440019CE38 /* RDMusicLibrary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDMusicLibrary.h; sourceTree = "<group>"; };
+		48881996172DBD440019CE38 /* RDMusicLibrary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDMusicLibrary.m; sourceTree = "<group>"; };
+		4889145617776DEC00120CEF /* RDAppViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RDAppViewController.h; path = Controllers/RDAppViewController.h; sourceTree = "<group>"; };
+		4889145717776DEC00120CEF /* RDAppViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RDAppViewController.m; path = Controllers/RDAppViewController.m; sourceTree = "<group>"; };
+		488914631777AF9100120CEF /* NSArray+RhythmDen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSArray+RhythmDen.h"; path = "Utilities/NSArray+RhythmDen.h"; sourceTree = "<group>"; };
+		488914641777AF9100120CEF /* NSArray+RhythmDen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSArray+RhythmDen.m"; path = "Utilities/NSArray+RhythmDen.m"; sourceTree = "<group>"; };
+		48941841174849A900925892 /* RDDropboxMusicStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDDropboxMusicStream.h; sourceTree = "<group>"; };
+		48941842174849A900925892 /* RDDropboxMusicStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDDropboxMusicStream.m; sourceTree = "<group>"; };
+		489A09DE14C71D3B000D4BD0 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		489C328416E41E7E0019ABF2 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		489C328516E41E7E0019ABF2 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		489C328716E47E3F0019ABF2 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		489C328B16E47F0E0019ABF2 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		489D1E05180894AF005403E5 /* RDDropboxTutorialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RDDropboxTutorialViewController.h; path = Controllers/RDDropboxTutorialViewController.h; sourceTree = "<group>"; };
+		489D1E06180894AF005403E5 /* RDDropboxTutorialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RDDropboxTutorialViewController.m; path = Controllers/RDDropboxTutorialViewController.m; sourceTree = "<group>"; };
+		48AAE82C180B871B00D8EC1C /* UIDevice+RhythmDen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIDevice+RhythmDen.h"; path = "Utilities/UIDevice+RhythmDen.h"; sourceTree = "<group>"; };
+		48AAE82D180B871B00D8EC1C /* UIDevice+RhythmDen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIDevice+RhythmDen.m"; path = "Utilities/UIDevice+RhythmDen.m"; sourceTree = "<group>"; };
+		48AF0B8017F49B300087541A /* NSObject+RhythmDen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSObject+RhythmDen.h"; path = "Utilities/NSObject+RhythmDen.h"; sourceTree = "<group>"; };
+		48AF0B8117F49B300087541A /* NSObject+RhythmDen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSObject+RhythmDen.m"; path = "Utilities/NSObject+RhythmDen.m"; sourceTree = "<group>"; };
+		48AFC299182745F50012EA64 /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+		48AFC29B182751F00012EA64 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		48AFC29D182752310012EA64 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		48AFC29F182752400012EA64 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		48AFC2A21827535C0012EA64 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
+		48AFC2A5182760E50012EA64 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		48BAE41A1862827C003632E7 /* MusicLibraryToMusicLibraryV2.xcmappingmodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcmappingmodel; name = MusicLibraryToMusicLibraryV2.xcmappingmodel; path = Models/MusicLibraryToMusicLibraryV2.xcmappingmodel; sourceTree = "<group>"; };
+		48BDB2CC14ACB684002DEEA2 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		48D9A5AB16DAD9CE00CB57BD /* RDMusicPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDMusicPlayer.h; sourceTree = "<group>"; };
+		48D9A5AC16DAD9CF00CB57BD /* RDMusicPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDMusicPlayer.m; sourceTree = "<group>"; };
+		48E456AB16D5C61200E9C12A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		48E7F3F017FE5A49009ED0AF /* delete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = delete.png; path = RhythmDen/Resources/delete.png; sourceTree = "<group>"; };
+		48E7F3F117FE5A49009ED0AF /* delete@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "delete@2x.png"; path = "RhythmDen/Resources/delete@2x.png"; sourceTree = "<group>"; };
+		48E7F3F417FE5EE2009ED0AF /* RDAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDAlertView.h; sourceTree = "<group>"; };
+		48E7F3F517FE5EE2009ED0AF /* RDAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDAlertView.m; sourceTree = "<group>"; };
+		48EB2F4B18188A8100852664 /* UIApplication+RhythmDen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIApplication+RhythmDen.h"; path = "Utilities/UIApplication+RhythmDen.h"; sourceTree = "<group>"; };
+		48EB2F4C18188A8100852664 /* UIApplication+RhythmDen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+RhythmDen.m"; path = "Utilities/UIApplication+RhythmDen.m"; sourceTree = "<group>"; };
+		48F44E95182D64B4003D3BBF /* libGPUImageSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libGPUImageSDK.a; path = "GPUImageSDK/build/Debug-iphoneos/libGPUImageSDK.a"; sourceTree = "<group>"; };
+		48F44E96182D64B4003D3BBF /* libSDropboxSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSDropboxSDK.a; path = "../../Library/Developer/Xcode/DerivedData/Rhythm-hbckyuswmdfuutgzlospzkauozpo/Build/Products/Debug-iphoneos/libSDropboxSDK.a"; sourceTree = "<group>"; };
+		48FA63E01860B0B300B3F5B2 /* RDLibraryMetaModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RDLibraryMetaModel.h; path = Models/RDLibraryMetaModel.h; sourceTree = "<group>"; };
+		48FA63E11860B0B300B3F5B2 /* RDLibraryMetaModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RDLibraryMetaModel.m; path = Models/RDLibraryMetaModel.m; sourceTree = "<group>"; };
+		7F89483E14B3AA9F005E907B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = RhythmDen/Resources/Default.png; sourceTree = "<group>"; };
+		7F89483F14B3AA9F005E907B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "RhythmDen/Resources/Default@2x.png"; sourceTree = "<group>"; };
+		7F89484014B3AA9F005E907B /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = RhythmDen/Resources/Icon.png; sourceTree = "<group>"; };
+		7F89484114B3AA9F005E907B /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "RhythmDen/Resources/Icon@2x.png"; sourceTree = "<group>"; };
+		7F89487C14B3AD85005E907B /* RDLibraryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RDLibraryViewController.h; path = Controllers/RDLibraryViewController.h; sourceTree = "<group>"; };
+		7F89487D14B3AD85005E907B /* RDLibraryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RDLibraryViewController.m; path = Controllers/RDLibraryViewController.m; sourceTree = "<group>"; };
+		7F89488014B3AD85005E907B /* RDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RDViewController.h; path = Controllers/RDViewController.h; sourceTree = "<group>"; };
+		7F89488114B3AD85005E907B /* RDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RDViewController.m; path = Controllers/RDViewController.m; sourceTree = "<group>"; };
+		7F89498814B3B7DD005E907B /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		48500E8214AAAEA80015A5DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B0C0E121832CA04006C5CFC /* libBitly.a in Frameworks */,
+				48F44E98182D64B4003D3BBF /* libGPUImageSDK.a in Frameworks */,
+				48F44E99182D64B4003D3BBF /* libSDropboxSDK.a in Frameworks */,
+				2B0C0E1A1832DAA3006C5CFC /* Accounts.framework in Frameworks */,
+				2B0C0E191832D939006C5CFC /* Twitter.framework in Frameworks */,
+				2B0C0DD518329213006C5CFC /* Social.framework in Frameworks */,
+				2B2CACFE18294BCA00BBDCB9 /* AssetsLibrary.framework in Frameworks */,
+				48AFC2A6182760E50012EA64 /* CoreLocation.framework in Frameworks */,
+				48AFC2A41827536B0012EA64 /* AddressBook.framework in Frameworks */,
+				48AFC29A182745F50012EA64 /* AddressBookUI.framework in Frameworks */,
+				48566E951810283600976833 /* MessageUI.framework in Frameworks */,
+				2B00E36118036070004B19B7 /* StoreKit.framework in Frameworks */,
+				2B091C7117F77EDB00470D20 /* Accelerate.framework in Frameworks */,
+				2B091C6C17F7766400470D20 /* CoreImage.framework in Frameworks */,
+				4872762917F67AD500513DE2 /* OpenGLES.framework in Frameworks */,
+				489C328C16E47F0E0019ABF2 /* CoreMedia.framework in Frameworks */,
+				489C328816E47E3F0019ABF2 /* AVFoundation.framework in Frameworks */,
+				48E456AC16D5C61200E9C12A /* SystemConfiguration.framework in Frameworks */,
+				489A09DF14C71D3B000D4BD0 /* CoreData.framework in Frameworks */,
+				7F89498914B3B7DD005E907B /* Security.framework in Frameworks */,
+				48BDB2CD14ACB684002DEEA2 /* QuartzCore.framework in Frameworks */,
+				48500EA714AAAF0A0015A5DE /* MediaPlayer.framework in Frameworks */,
+				48500E8A14AAAEA80015A5DE /* UIKit.framework in Frameworks */,
+				48500E8C14AAAEA80015A5DE /* Foundation.framework in Frameworks */,
+				48500E8E14AAAEA80015A5DE /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B00E34718033AB6004B19B7 /* Dropbox */ = {
+			isa = PBXGroup;
+			children = (
+				48941841174849A900925892 /* RDDropboxMusicStream.h */,
+				48941842174849A900925892 /* RDDropboxMusicStream.m */,
+				2B91EE6D16C80EB400E61503 /* RDDropboxSyncService.h */,
+				2B91EE6E16C80EB400E61503 /* RDDropboxSyncService.m */,
+			);
+			name = Dropbox;
+			sourceTree = "<group>";
+		};
+		2B0C0E151832D257006C5CFC /* iTunes */ = {
+			isa = PBXGroup;
+			children = (
+				2B0C0E161832D2F1006C5CFC /* RDiTunesSearchService.h */,
+				2B0C0E171832D2F1006C5CFC /* RDiTunesSearchService.m */,
+			);
+			name = iTunes;
+			sourceTree = "<group>";
+		};
+		2B1615FA1857E4D700372A98 /* iRate */ = {
+			isa = PBXGroup;
+			children = (
+				2B1615FB1857E4EF00372A98 /* iRate.h */,
+				2B1615FC1857E4EF00372A98 /* iRate.m */,
+			);
+			name = iRate;
+			sourceTree = "<group>";
+		};
+		2B91EE6A16C80E9F00E61503 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				2B1615FA1857E4D700372A98 /* iRate */,
+				2B0C0E151832D257006C5CFC /* iTunes */,
+				2B00E34718033AB6004B19B7 /* Dropbox */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		2B91EEA716C8786800E61503 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				485C3AC817FF3DE100F53E7F /* UIView+TKCategory.h */,
+				485C3AC917FF3DE100F53E7F /* UIView+TKCategory.m */,
+				2BFB712017FCA762008E3EE6 /* UIColor+RhythmDen.h */,
+				2BFB712117FCA762008E3EE6 /* UIColor+RhythmDen.m */,
+				2BFB711817FB2EF0008E3EE6 /* UIView+AccessViewController.h */,
+				2BFB711917FB2EF0008E3EE6 /* UIView+AccessViewController.m */,
+				4872762517F6775E00513DE2 /* UIColor+YUVSpace.h */,
+				4872762617F6775E00513DE2 /* UIColor+YUVSpace.m */,
+				2B91EEAA16C8788500E61503 /* DBSession+RhythmDen.h */,
+				2B91EEAB16C8788500E61503 /* DBSession+RhythmDen.m */,
+				2B4355BB16D71AA000636711 /* RDModels+RhythmDen.h */,
+				2B4355BC16D71AA000636711 /* RDModels+RhythmDen.m */,
+				4885368717498FED0087F6BE /* UINavigationController+RDViewRotationSupport.h */,
+				4885368817498FEE0087F6BE /* UINavigationController+RDViewRotationSupport.m */,
+				488914631777AF9100120CEF /* NSArray+RhythmDen.h */,
+				488914641777AF9100120CEF /* NSArray+RhythmDen.m */,
+				48AF0B8017F49B300087541A /* NSObject+RhythmDen.h */,
+				48AF0B8117F49B300087541A /* NSObject+RhythmDen.m */,
+				4872763A17F8A25800513DE2 /* UIImage+RhythmDen.h */,
+				4872763B17F8A25800513DE2 /* UIImage+RhythmDen.m */,
+				48AAE82C180B871B00D8EC1C /* UIDevice+RhythmDen.h */,
+				48AAE82D180B871B00D8EC1C /* UIDevice+RhythmDen.m */,
+				48EB2F4B18188A8100852664 /* UIApplication+RhythmDen.h */,
+				48EB2F4C18188A8100852664 /* UIApplication+RhythmDen.m */,
+				2B0C0DDA1832AE87006C5CFC /* NSString+RhythmDen.h */,
+				2B0C0DDB1832AE87006C5CFC /* NSString+RhythmDen.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		48500E7A14AAAEA80015A5DE = {
+			isa = PBXGroup;
+			children = (
+				48500EB014AAB3690015A5DE /* Resources */,
+				48500E8F14AAAEA80015A5DE /* Classes */,
+				48500E8814AAAEA80015A5DE /* Frameworks */,
+				48500E8614AAAEA80015A5DE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		48500E8614AAAEA80015A5DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				48500E8514AAAEA80015A5DE /* RhythmDen.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		48500E8814AAAEA80015A5DE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2B0C0E111832CA04006C5CFC /* libBitly.a */,
+				48F44E95182D64B4003D3BBF /* libGPUImageSDK.a */,
+				48F44E96182D64B4003D3BBF /* libSDropboxSDK.a */,
+				2B2CACFD18294BCA00BBDCB9 /* AssetsLibrary.framework */,
+				48AFC2A5182760E50012EA64 /* CoreLocation.framework */,
+				48AFC2A21827535C0012EA64 /* Twitter.framework */,
+				48AFC29F182752400012EA64 /* Accounts.framework */,
+				48AFC29D182752310012EA64 /* AddressBook.framework */,
+				48AFC29B182751F00012EA64 /* Social.framework */,
+				48AFC299182745F50012EA64 /* AddressBookUI.framework */,
+				48566E941810283600976833 /* MessageUI.framework */,
+				2B00E36018036070004B19B7 /* StoreKit.framework */,
+				2B091C7017F77EDB00470D20 /* Accelerate.framework */,
+				2B091C6B17F7766400470D20 /* CoreImage.framework */,
+				4872762817F67AD500513DE2 /* OpenGLES.framework */,
+				489C328B16E47F0E0019ABF2 /* CoreMedia.framework */,
+				489C328716E47E3F0019ABF2 /* AVFoundation.framework */,
+				48E456AB16D5C61200E9C12A /* SystemConfiguration.framework */,
+				489A09DE14C71D3B000D4BD0 /* CoreData.framework */,
+				7F89498814B3B7DD005E907B /* Security.framework */,
+				48BDB2CC14ACB684002DEEA2 /* QuartzCore.framework */,
+				48500EA614AAAF0A0015A5DE /* MediaPlayer.framework */,
+				48500E8914AAAEA80015A5DE /* UIKit.framework */,
+				48500E8B14AAAEA80015A5DE /* Foundation.framework */,
+				48500E8D14AAAEA80015A5DE /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		48500E8F14AAAEA80015A5DE /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4889144F1777255100120CEF /* UI */,
+				2B91EEA716C8786800E61503 /* Categories */,
+				2B91EE6A16C80E9F00E61503 /* Services */,
+				48B2121914BA466D00D2C922 /* Preferences */,
+				48C2DC5214BE4FCE0008EED1 /* Models */,
+				48500EB114AAB56A0015A5DE /* Controllers */,
+				48500E9014AAAEA80015A5DE /* Supporting Files */,
+				48500E9814AAAEA80015A5DE /* RDAppDelegate.h */,
+				48500E9914AAAEA80015A5DE /* RDAppDelegate.m */,
+				48D9A5AB16DAD9CE00CB57BD /* RDMusicPlayer.h */,
+				48D9A5AC16DAD9CF00CB57BD /* RDMusicPlayer.m */,
+				48881995172DBD440019CE38 /* RDMusicLibrary.h */,
+				48881996172DBD440019CE38 /* RDMusicLibrary.m */,
+				487B87181752C379009A3228 /* RDMusicResourceCache.h */,
+				487B87191752C379009A3228 /* RDMusicResourceCache.m */,
+				4872760317F63C2000513DE2 /* RDMusicRepository.h */,
+				4872760417F63C2000513DE2 /* RDMusicRepository.m */,
+				4872761217F63CEF00513DE2 /* iPhone.storyboard */,
+			);
+			name = Classes;
+			path = RhythmDen;
+			sourceTree = "<group>";
+		};
+		48500E9014AAAEA80015A5DE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2B0C0DDD1832B222006C5CFC /* JSONKit.h */,
+				2B0C0DDE1832B222006C5CFC /* JSONKit.m */,
+				48183ADB18044E4700545A7C /* RhythmDen.entitlements */,
+				489C328416E41E7E0019ABF2 /* Reachability.h */,
+				489C328516E41E7E0019ABF2 /* Reachability.m */,
+				48500E9114AAAEA80015A5DE /* RhythmDen-Info.plist */,
+				48500E9214AAAEA80015A5DE /* InfoPlist.strings */,
+				48500E9514AAAEA80015A5DE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		48500EB014AAB3690015A5DE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				484023C218562A850081D0D5 /* revert.png */,
+				484023C318562A850081D0D5 /* revert@2x.png */,
+				48371C201851612C00C5E080 /* verify.png */,
+				48371C211851612C00C5E080 /* verify@2x.png */,
+				2BA6F356183A6D8D0099A0F4 /* message.png */,
+				2BA6F357183A6D8D0099A0F4 /* message@2x.png */,
+				4880A3AF1836EA2700FA7A45 /* check.png */,
+				4880A3B01836EA2700FA7A45 /* check@2x.png */,
+				2B0C0DCD1832914A006C5CFC /* facebook.png */,
+				2B0C0DCE1832914A006C5CFC /* facebook@2x.png */,
+				2B0C0DCF1832914A006C5CFC /* twitter.png */,
+				2B0C0DD01832914A006C5CFC /* twitter@2x.png */,
+				2BF01B1D181389C900BFB434 /* dropbox.png */,
+				2BF01B1E181389C900BFB434 /* dropbox@2x.png */,
+				2BF01B1B18137BBE00BFB434 /* mix-coverart-thumb.jpg */,
+				2BF01B191813657800BFB434 /* mix-coverart.jpg */,
+				2BF01B171813124000BFB434 /* blank.mp3 */,
+				4827A20318118FC0003538DA /* help.png */,
+				4827A20418118FC0003538DA /* help@2x.png */,
+				4827A20118118BC9003538DA /* DropboxTutorial03.png */,
+				4827A1FF1810E617003538DA /* DropboxTutorial02.png */,
+				4827A1FB1810D729003538DA /* DropboxTutorial01.png */,
+				48107D79180DD33D0048DA31 /* Tapku-Library-LICENSE.txt */,
+				2BEF2F9F182B374A009E66B0 /* GPUImage-LICENSE.txt */,
+				48107D7A180DD33D0048DA31 /* Ubuntu-Font-LICENSE.txt */,
+				48107D71180DCE160048DA31 /* ActionSheetPicker-LICENSE.txt */,
+				48107D72180DCE160048DA31 /* MSCellAccessory-LICENSE.txt */,
+				480B7DAA1711B6D500496779 /* Font-BEBAS.ttf */,
+				4821C2FE150D5F31007F25AE /* Font-Ubuntu-C.ttf */,
+				48566E9A181037DE00976833 /* share.png */,
+				48566E9B181037DE00976833 /* share@2x.png */,
+				487E71EA180494EE004F0C8A /* Icon-72@2x.png */,
+				487E71EB180494EE004F0C8A /* Icon-Small-50@2x.png */,
+				487E71EC180494EE004F0C8A /* Icon-Small@2x.png */,
+				485C3AB417FF0AC100F53E7F /* favorite.png */,
+				485C3AB517FF0AC100F53E7F /* favorite@2x.png */,
+				48E7F3F017FE5A49009ED0AF /* delete.png */,
+				48E7F3F117FE5A49009ED0AF /* delete@2x.png */,
+				4872763017F8955500513DE2 /* now-playing.png */,
+				4872763117F8955500513DE2 /* now-playing@2x.png */,
+				4872762E17F889F800513DE2 /* sync@2x.png */,
+				4872762A17F87A3F00513DE2 /* stop.png */,
+				4872762B17F87A3F00513DE2 /* stop@2x.png */,
+				2B091C7717F7859100470D20 /* pause.png */,
+				2B091C7817F7859100470D20 /* pause@2x.png */,
+				2B091C7917F7859100470D20 /* play.png */,
+				2B091C7A17F7859100470D20 /* play@2x.png */,
+				2B091C7B17F7859100470D20 /* repeat.png */,
+				2B091C7C17F7859100470D20 /* repeat@2x.png */,
+				487275FB17F61CF000513DE2 /* sort-icon.png */,
+				48086198181B432900B81263 /* sort-icon@2x.png */,
+				484EFEEF17F1CB3E000BEAB4 /* tabbar-favorites.png */,
+				484EFEF017F1CB3E000BEAB4 /* tabbar-favorites@2x.png */,
+				484EFEF117F1CB3E000BEAB4 /* tabbar-music@2x.png */,
+				484EFEF217F1CB3E000BEAB4 /* tabbar-settings@2x.png */,
+				484EFEEB17F0D2EE000BEAB4 /* tabbar-music.png */,
+				484EFEEC17F0D2EE000BEAB4 /* tabbar-settings.png */,
+				485BECC8173FBB2E00DBBA7E /* sync.png */,
+				48797B8217090B43008AAD65 /* transparent.png */,
+				2B91EE8D16C83D2200E61503 /* Default-568h@2x.png */,
+				0A51E21514E430F900FF2D68 /* Missing-Art-Cover-Icon.png */,
+				7F89483E14B3AA9F005E907B /* Default.png */,
+				7F89483F14B3AA9F005E907B /* Default@2x.png */,
+				7F89484014B3AA9F005E907B /* Icon.png */,
+				7F89484114B3AA9F005E907B /* Icon@2x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		48500EB114AAB56A0015A5DE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7F89487C14B3AD85005E907B /* RDLibraryViewController.h */,
+				7F89487D14B3AD85005E907B /* RDLibraryViewController.m */,
+				7F89488014B3AD85005E907B /* RDViewController.h */,
+				7F89488114B3AD85005E907B /* RDViewController.m */,
+				2B91EE6716C80CDF00E61503 /* RDPreferenceViewController.h */,
+				2B91EE6816C80CDF00E61503 /* RDPreferenceViewController.m */,
+				2B1E701D16D19D6F008371D9 /* RDPlayerViewController.h */,
+				2B1E701E16D19D6F008371D9 /* RDPlayerViewController.m */,
+				4889145617776DEC00120CEF /* RDAppViewController.h */,
+				4889145717776DEC00120CEF /* RDAppViewController.m */,
+				481717A517E60676000B9FCB /* RDMixViewController.h */,
+				481717A617E60676000B9FCB /* RDMixViewController.m */,
+				2B00E362180369ED004B19B7 /* RDAboutViewController.h */,
+				2B00E363180369ED004B19B7 /* RDAboutViewController.m */,
+				489D1E05180894AF005403E5 /* RDDropboxTutorialViewController.h */,
+				489D1E06180894AF005403E5 /* RDDropboxTutorialViewController.m */,
+				2B4F95E21808FBF400E42846 /* RDPlayerTutorialViewController.h */,
+				2B4F95E31808FBF400E42846 /* RDPlayerTutorialViewController.m */,
+				4827A20718119042003538DA /* RDTutorialsViewController.h */,
+				4827A20818119042003538DA /* RDTutorialsViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		4889144F1777255100120CEF /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				2BEF2F9A182AEC9F009E66B0 /* RDFrostView.h */,
+				2BEF2F9B182AEC9F009E66B0 /* RDFrostView.m */,
+				485C3AC217FF3D7400F53E7F /* TKAlertCenter.h */,
+				485C3AC317FF3D7400F53E7F /* TKAlertCenter.m */,
+				4831DA5E180860100038BF61 /* DETAnimatedTransitionController.h */,
+				4831DA5F180860100038BF61 /* DETAnimatedTransitionController.m */,
+				485C3ABF17FF3D5B00F53E7F /* TKGlobal.h */,
+				485C3AC017FF3D5B00F53E7F /* TKGlobal.m */,
+				485C3AB817FF274900F53E7F /* AbstractActionSheetPicker.h */,
+				485C3AB917FF274900F53E7F /* AbstractActionSheetPicker.m */,
+				485C3ABA17FF274900F53E7F /* ActionSheetStringPicker.h */,
+				485C3ABB17FF274900F53E7F /* ActionSheetStringPicker.m */,
+				2BFB711517FB2EB9008E3EE6 /* MSCellAccessory.h */,
+				2BFB711617FB2EB9008E3EE6 /* MSCellAccessory.m */,
+				4872762217F6773C00513DE2 /* LEColorPicker.h */,
+				4872762317F6773C00513DE2 /* LEColorPicker.m */,
+				4872760F17F63C9200513DE2 /* RDInternetDetectionActionSheet.h */,
+				4872761017F63C9200513DE2 /* RDInternetDetectionActionSheet.m */,
+				48E7F3F417FE5EE2009ED0AF /* RDAlertView.h */,
+				48E7F3F517FE5EE2009ED0AF /* RDAlertView.m */,
+				2BA473E0183542B5005927A6 /* RDSwipeableTableViewCell.h */,
+				2BA473E1183542B5005927A6 /* RDSwipeableTableViewCell.m */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		48B2121914BA466D00D2C922 /* Preferences */ = {
+			isa = PBXGroup;
+			children = (
+				4872760617F63C5900513DE2 /* RDAppPreference.h */,
+				4872760717F63C5900513DE2 /* RDAppPreference.m */,
+				4872760817F63C5900513DE2 /* RDPreference.h */,
+				4872760917F63C5900513DE2 /* RDPreference.m */,
+				2B91EE6F16C80EB400E61503 /* RDDropboxPreference.h */,
+				2B91EE7016C80EB400E61503 /* RDDropboxPreference.m */,
+			);
+			name = Preferences;
+			sourceTree = "<group>";
+		};
+		48C2DC5214BE4FCE0008EED1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				48533DAF1816042F00529BF6 /* MusicLibrary.xcdatamodeld */,
+				48BAE41A1862827C003632E7 /* MusicLibraryToMusicLibraryV2.xcmappingmodel */,
+				482D63D8185A19290077982D /* RDTrackModel.h */,
+				482D63D9185A19290077982D /* RDTrackModel.m */,
+				482D63D5185A17C10077982D /* RDPlaylistModel.h */,
+				482D63D6185A17C10077982D /* RDPlaylistModel.m */,
+				482D63D2185906D40077982D /* RDArtistModel.h */,
+				482D63D3185906D40077982D /* RDArtistModel.m */,
+				2BC8865D186FB80A0060F8A6 /* RDAlbumModel.h */,
+				2BC8865E186FB80A0060F8A6 /* RDAlbumModel.m */,
+				48FA63E01860B0B300B3F5B2 /* RDLibraryMetaModel.h */,
+				48FA63E11860B0B300B3F5B2 /* RDLibraryMetaModel.m */,
+				48371C051850F3CE00C5E080 /* RDDropboxSyncMetaModel.h */,
+				48371C061850F3CE00C5E080 /* RDDropboxSyncMetaModel.m */,
+				48172A8814C79DDB00EA8849 /* RDModels.h */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		48500E8414AAAEA80015A5DE /* RhythmDen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48500EA314AAAEA80015A5DE /* Build configuration list for PBXNativeTarget "RhythmDen" */;
+			buildPhases = (
+				48500E8114AAAEA80015A5DE /* Sources */,
+				48500E8214AAAEA80015A5DE /* Frameworks */,
+				48500E8314AAAEA80015A5DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RhythmDen;
+			productName = RhythmDen;
+			productReference = 48500E8514AAAEA80015A5DE /* RhythmDen.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		48500E7C14AAAEA80015A5DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				TargetAttributes = {
+					48500E8414AAAEA80015A5DE = {
+						DevelopmentTeam = MP6YP3XFXL;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.InAppPurchase = {
+								enabled = 0;
+							};
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 48500E7F14AAAEA80015A5DE /* Build configuration list for PBXProject "RhythmDen" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 48500E7A14AAAEA80015A5DE;
+			productRefGroup = 48500E8614AAAEA80015A5DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				48500E8414AAAEA80015A5DE /* RhythmDen */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		48500E8314AAAEA80015A5DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48500E9414AAAEA80015A5DE /* InfoPlist.strings in Resources */,
+				4827A1FC1810D729003538DA /* DropboxTutorial01.png in Resources */,
+				4872762C17F87A3F00513DE2 /* stop.png in Resources */,
+				487E71ED180494EE004F0C8A /* Icon-72@2x.png in Resources */,
+				7F89484214B3AA9F005E907B /* Default.png in Resources */,
+				484023C418562A850081D0D5 /* revert.png in Resources */,
+				2BF01B1F181389C900BFB434 /* dropbox.png in Resources */,
+				4880A3B11836EA2700FA7A45 /* check.png in Resources */,
+				7F89484314B3AA9F005E907B /* Default@2x.png in Resources */,
+				48566E9C181037DE00976833 /* share.png in Resources */,
+				487E71EF180494EE004F0C8A /* Icon-Small@2x.png in Resources */,
+				2BA6F359183A6D8D0099A0F4 /* message@2x.png in Resources */,
+				4827A20218118BC9003538DA /* DropboxTutorial03.png in Resources */,
+				7F89484414B3AA9F005E907B /* Icon.png in Resources */,
+				4872763417F8955500513DE2 /* now-playing.png in Resources */,
+				2B0C0DD21832914A006C5CFC /* facebook@2x.png in Resources */,
+				7F89484514B3AA9F005E907B /* Icon@2x.png in Resources */,
+				4827A2001810E617003538DA /* DropboxTutorial02.png in Resources */,
+				0A51E21614E430F900FF2D68 /* Missing-Art-Cover-Icon.png in Resources */,
+				48371C221851612C00C5E080 /* verify.png in Resources */,
+				4827A20618118FC0003538DA /* help@2x.png in Resources */,
+				4872762D17F87A3F00513DE2 /* stop@2x.png in Resources */,
+				484EFEF417F1CB3E000BEAB4 /* tabbar-favorites@2x.png in Resources */,
+				4821C300150D5F31007F25AE /* Font-Ubuntu-C.ttf in Resources */,
+				2BA6F358183A6D8D0099A0F4 /* message.png in Resources */,
+				2B0C0DD31832914A006C5CFC /* twitter.png in Resources */,
+				2B091C8117F7859100470D20 /* pause.png in Resources */,
+				48107D76180DCE160048DA31 /* MSCellAccessory-LICENSE.txt in Resources */,
+				48371C231851612C00C5E080 /* verify@2x.png in Resources */,
+				2B091C8317F7859100470D20 /* play.png in Resources */,
+				484EFEF317F1CB3E000BEAB4 /* tabbar-favorites.png in Resources */,
+				48E7F3F217FE5A49009ED0AF /* delete.png in Resources */,
+				2B91EE8E16C83D2200E61503 /* Default-568h@2x.png in Resources */,
+				4872762F17F889F800513DE2 /* sync@2x.png in Resources */,
+				484EFEF517F1CB3E000BEAB4 /* tabbar-music@2x.png in Resources */,
+				2BEF2FA0182B374A009E66B0 /* GPUImage-LICENSE.txt in Resources */,
+				487275FC17F61CF000513DE2 /* sort-icon.png in Resources */,
+				4872763517F8955500513DE2 /* now-playing@2x.png in Resources */,
+				2BF01B20181389C900BFB434 /* dropbox@2x.png in Resources */,
+				4880A3B21836EA2700FA7A45 /* check@2x.png in Resources */,
+				2B091C8617F7859100470D20 /* repeat@2x.png in Resources */,
+				2B0C0DD41832914A006C5CFC /* twitter@2x.png in Resources */,
+				48086199181B432900B81263 /* sort-icon@2x.png in Resources */,
+				4872761317F63CEF00513DE2 /* iPhone.storyboard in Resources */,
+				484023C518562A850081D0D5 /* revert@2x.png in Resources */,
+				48107D7B180DD33D0048DA31 /* Tapku-Library-LICENSE.txt in Resources */,
+				487E71EE180494EE004F0C8A /* Icon-Small-50@2x.png in Resources */,
+				48107D7C180DD33D0048DA31 /* Ubuntu-Font-LICENSE.txt in Resources */,
+				48107D75180DCE160048DA31 /* ActionSheetPicker-LICENSE.txt in Resources */,
+				48E7F3F317FE5A49009ED0AF /* delete@2x.png in Resources */,
+				48797B8317090B43008AAD65 /* transparent.png in Resources */,
+				4827A20518118FC0003538DA /* help.png in Resources */,
+				480B7DAB1711B6D500496779 /* Font-BEBAS.ttf in Resources */,
+				485C3AB617FF0AC100F53E7F /* favorite.png in Resources */,
+				485BECC9173FBB2E00DBBA7E /* sync.png in Resources */,
+				484EFEEE17F0D2EE000BEAB4 /* tabbar-settings.png in Resources */,
+				48566E9D181037DE00976833 /* share@2x.png in Resources */,
+				485C3AB717FF0AC100F53E7F /* favorite@2x.png in Resources */,
+				2B091C8217F7859100470D20 /* pause@2x.png in Resources */,
+				2BF01B1A1813657800BFB434 /* mix-coverart.jpg in Resources */,
+				2B0C0DD11832914A006C5CFC /* facebook.png in Resources */,
+				484EFEF617F1CB3E000BEAB4 /* tabbar-settings@2x.png in Resources */,
+				2BF01B1C18137BBE00BFB434 /* mix-coverart-thumb.jpg in Resources */,
+				2B091C8417F7859100470D20 /* play@2x.png in Resources */,
+				484EFEED17F0D2EE000BEAB4 /* tabbar-music.png in Resources */,
+				2B091C8517F7859100470D20 /* repeat.png in Resources */,
+				2BF01B181813124000BFB434 /* blank.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		48500E8114AAAEA80015A5DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				482D63D4185906D40077982D /* RDArtistModel.m in Sources */,
+				48AF0B8217F49B300087541A /* NSObject+RhythmDen.m in Sources */,
+				485C3AC417FF3D7400F53E7F /* TKAlertCenter.m in Sources */,
+				48AAE82E180B871B00D8EC1C /* UIDevice+RhythmDen.m in Sources */,
+				48500E9614AAAEA80015A5DE /* main.m in Sources */,
+				482D63DA185A19290077982D /* RDTrackModel.m in Sources */,
+				48500E9A14AAAEA80015A5DE /* RDAppDelegate.m in Sources */,
+				4831DA60180860100038BF61 /* DETAnimatedTransitionController.m in Sources */,
+				7F89488414B3AD85005E907B /* RDLibraryViewController.m in Sources */,
+				2B0C0E181832D2F1006C5CFC /* RDiTunesSearchService.m in Sources */,
+				2B0C0DDC1832AE87006C5CFC /* NSString+RhythmDen.m in Sources */,
+				485C3ABD17FF274900F53E7F /* ActionSheetStringPicker.m in Sources */,
+				7F89488614B3AD85005E907B /* RDViewController.m in Sources */,
+				48EB2F4D18188A8100852664 /* UIApplication+RhythmDen.m in Sources */,
+				2B91EE6916C80CDF00E61503 /* RDPreferenceViewController.m in Sources */,
+				485C3ABC17FF274900F53E7F /* AbstractActionSheetPicker.m in Sources */,
+				2BFB711A17FB2EF0008E3EE6 /* UIView+AccessViewController.m in Sources */,
+				2B91EE7416C80EB400E61503 /* RDDropboxSyncService.m in Sources */,
+				48FA63E21860B0B300B3F5B2 /* RDLibraryMetaModel.m in Sources */,
+				485C3ACA17FF3DE100F53E7F /* UIView+TKCategory.m in Sources */,
+				2B91EE7516C80EB400E61503 /* RDDropboxPreference.m in Sources */,
+				4872760A17F63C5900513DE2 /* RDAppPreference.m in Sources */,
+				2B91EEAD16C8788500E61503 /* DBSession+RhythmDen.m in Sources */,
+				2B1E701F16D19D6F008371D9 /* RDPlayerViewController.m in Sources */,
+				4827A20918119042003538DA /* RDTutorialsViewController.m in Sources */,
+				2B4355BD16D71AA000636711 /* RDModels+RhythmDen.m in Sources */,
+				48E7F3F617FE5EE2009ED0AF /* RDAlertView.m in Sources */,
+				2BEF2F9C182AEC9F009E66B0 /* RDFrostView.m in Sources */,
+				4872760517F63C2000513DE2 /* RDMusicRepository.m in Sources */,
+				2BFB711717FB2EB9008E3EE6 /* MSCellAccessory.m in Sources */,
+				48BAE41B1862827C003632E7 /* MusicLibraryToMusicLibraryV2.xcmappingmodel in Sources */,
+				482D63D7185A17C10077982D /* RDPlaylistModel.m in Sources */,
+				48D9A5AD16DAD9CF00CB57BD /* RDMusicPlayer.m in Sources */,
+				4872763C17F8A25800513DE2 /* UIImage+RhythmDen.m in Sources */,
+				489D1E07180894AF005403E5 /* RDDropboxTutorialViewController.m in Sources */,
+				489C328616E41E7E0019ABF2 /* Reachability.m in Sources */,
+				2BA473E2183542B5005927A6 /* RDSwipeableTableViewCell.m in Sources */,
+				485C3AC117FF3D5B00F53E7F /* TKGlobal.m in Sources */,
+				48533DB11816042F00529BF6 /* MusicLibrary.xcdatamodeld in Sources */,
+				48881997172DBD440019CE38 /* RDMusicLibrary.m in Sources */,
+				4872760B17F63C5900513DE2 /* RDPreference.m in Sources */,
+				2BC8865F186FB80A0060F8A6 /* RDAlbumModel.m in Sources */,
+				48941843174849A900925892 /* RDDropboxMusicStream.m in Sources */,
+				2B4F95E41808FBF400E42846 /* RDPlayerTutorialViewController.m in Sources */,
+				4885368917498FEE0087F6BE /* UINavigationController+RDViewRotationSupport.m in Sources */,
+				487B871A1752C379009A3228 /* RDMusicResourceCache.m in Sources */,
+				2B1615FD1857E4EF00372A98 /* iRate.m in Sources */,
+				4889145817776DEC00120CEF /* RDAppViewController.m in Sources */,
+				488914651777AF9100120CEF /* NSArray+RhythmDen.m in Sources */,
+				2B00E364180369EE004B19B7 /* RDAboutViewController.m in Sources */,
+				4872761117F63C9200513DE2 /* RDInternetDetectionActionSheet.m in Sources */,
+				2BFB712217FCA762008E3EE6 /* UIColor+RhythmDen.m in Sources */,
+				4872762717F6775E00513DE2 /* UIColor+YUVSpace.m in Sources */,
+				4872762417F6773C00513DE2 /* LEColorPicker.m in Sources */,
+				481717A717E60676000B9FCB /* RDMixViewController.m in Sources */,
+				48371C071850F3CE00C5E080 /* RDDropboxSyncMetaModel.m in Sources */,
+				2B0C0DDF1832B222006C5CFC /* JSONKit.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		48500E9214AAAEA80015A5DE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48500E9314AAAEA80015A5DE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		48500EA114AAAEA80015A5DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Donelle Sanders Jr (C3W5RD3T67)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "DBF86F5F-B7B5-4CA9-A2A6-9F111C9BFF0B";
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Debug;
+		};
+		48500EA214AAAEA80015A5DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Donelle Sanders Jr (C3W5RD3T67)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "DBF86F5F-B7B5-4CA9-A2A6-9F111C9BFF0B";
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		48500EA414AAAEA80015A5DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CODE_SIGN_ENTITLEMENTS = RhythmDen/RhythmDen.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/dsanders/Github/RhythmDen/**",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "RhythmDen/RhythmDen-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/Rhythm-cjlxutkzwwwodlbqsvicrpnhqbsb/Build/Products/Debug-iphoneos",
+				);
+				"OTHER_LDFLAGS[arch=*]" = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "83B453BA-6F54-429D-97A9-D4689E4FA5C3";
+				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/BitlySDK\"/** \"$(SRCROOT)/DropboxSDK\"/** \"$(SRCROOT)/GPUImageSDK\"/** $(inherited)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		48500EA514AAAEA80015A5DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CODE_SIGN_ENTITLEMENTS = RhythmDen/RhythmDen.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/dsanders/Github/RhythmDen/**",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = "RhythmDen/RhythmDen-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/Rhythm-cjlxutkzwwwodlbqsvicrpnhqbsb/Build/Products/Debug-iphoneos",
+				);
+				"OTHER_LDFLAGS[arch=*]" = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "83B453BA-6F54-429D-97A9-D4689E4FA5C3";
+				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/BitlySDK\"/** \"$(SRCROOT)/DropboxSDK\"/** \"$(SRCROOT)/GPUImageSDK\"/** $(inherited)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		48500E7F14AAAEA80015A5DE /* Build configuration list for PBXProject "RhythmDen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48500EA114AAAEA80015A5DE /* Debug */,
+				48500EA214AAAEA80015A5DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48500EA314AAAEA80015A5DE /* Build configuration list for PBXNativeTarget "RhythmDen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48500EA414AAAEA80015A5DE /* Debug */,
+				48500EA514AAAEA80015A5DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		48533DAF1816042F00529BF6 /* MusicLibrary.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2B1615EB184D767200372A98 /* MusicLibraryv2.xcdatamodel */,
+				48533DB01816042F00529BF6 /* MusicLibrary.xcdatamodel */,
+			);
+			currentVersion = 2B1615EB184D767200372A98 /* MusicLibraryv2.xcdatamodel */;
+			name = MusicLibrary.xcdatamodeld;
+			path = Models/MusicLibrary.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 48500E7C14AAAEA80015A5DE /* Project object */;
+}
