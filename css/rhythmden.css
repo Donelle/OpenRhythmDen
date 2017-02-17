@@ -1,0 +1,57 @@
+@import url('960.css');
+@import url('text.css');
+@import url(http://fonts.googleapis.com/css?family=Ubuntu:300,400);
+
+body { font-variant: normal; font-size: 14pt; font-family: 'Ubuntu', sans-serif; background-image:url('images/bg.jpg'); background-repeat:no-repeat; background-color: #ffffff; margin: 0px 0px 0px 0px; }
+table { border-collapse: collapse; }
+header { padding:5px; height:144px; width:100%; position: absolute; top:0px; left:0px; }
+a { text-decoration: none; color:#f98e5f;  }
+a:hover { text-decoration: underline; color:#FFFFFF; }
+p { width:750px; }
+ul { list-style-type: none; margin-left:-33px; padding-bottom:5px; margin-top: 2px; width:750px; color:#FFFFFF; font-weight: 300; font-size: 10pt; }
+li { padding: 5px; background-image: url('images/blip.png'); background-position: 0px 5px; background-repeat: no-repeat; text-indent: 20px; }
+li > a { font-size: 10pt;  }
+h1 { font-size: 60px; font-weight:300; display: inline; }
+
+#Mobile { display: none }
+#Page { height:800px; width:960px; }
+#Page > div { position:absolute; top:100px; } 
+#Page p { color:#FFFFFF; width:500px; font-weight:300; }
+.page-content { position:absolute; top:160px; height:350px; background-image:url('images/shade.png'); border-radius: 10px; -moz-border-radius: 10px; }
+
+.landing-signup-email { background-color: #ffffff; height:37px; width:250px; border: 1px solid #c8c8c8; border-radius: 5px; -moz-border-radius: 5px; }
+.landing-signup-email input { background: url('images/transparent-bg.png'); margin:3px 0px 0px 5px; width:95%; border: none; font-size:12pt; font-weight: 400; color:#eae8e7; }
+.landing-signup-email input::-webkit-input-placeholder { color:#85817e; }
+.landing-signup-email input:placeholder { color:#a19485; }
+.landing-signup-button { 
+	height:40px; 
+	width: 250px; 
+	font-size: 12pt; 
+	font-weight:bold; 
+	color:#916c27; 
+	border: solid 1px #d39b36; 
+	border-radius: 5px;  
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#fed873), to(#fdbc48)); 
+	/*box-shadow: 0px 0px 0px 3px #eeece2, inset 0 1px 0 rgba(255,255,255,.6); */
+}
+
+.signup-message {
+	display: none;
+	float: left;
+	position: relative;
+	top:130px;
+	font-size: .816em;
+	text-align: left;
+	color: #fff0f0;
+	padding:8px;
+	border: 1px solid rgba(255,255,255,0.25);
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	-webkit-box-shadow: 0 0 3px #555;
+	-moz-box-shadow: 0 0 3px #555;
+	box-shadow: 0 0 3px #555;
+}
+
+.signup-error { background-color: #db0408; background-color: rgba(219,4,8,0.92); background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(transparent), to(#770204)); }
+.signup-success { background-color: #849548; background-color: rgba(132,149,72,0.92); background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(transparent), to(#849548)); }
